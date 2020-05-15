@@ -2,8 +2,9 @@ import discord
 import botFunctions
 from botFunctions import embed, command
 from random import choice
+import os
 
-token = "NzEwOTAwNDA3NjM5MDgxMDAy.Xr7X-g.FGREwoYd_W8wf_ZPno74xqmSjFA" #os.environ.get('TOKEN', None)
+token = os.environ.get('TOKEN', None)
 
 client = discord.Client()
 guild = client.get_guild(710900407639081002)
