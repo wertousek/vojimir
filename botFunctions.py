@@ -15,7 +15,7 @@ def embed(title, url = None, description = None, fields = None, image = None, th
             "url": url,
             "footer": {
                 "text": "Powered by wertousek",
-                "icon_url": "https://cdn.discordapp.com/avatars/452478521755828224/4cfdbde44582fe6ad05383171ac1b051.png"
+                "icon_url": "https://cdn.discordapp.com/avatars/436131686640648195/d72e4885e1d21bca46bd245bb00c4687.png"
                 }
             }
         )
