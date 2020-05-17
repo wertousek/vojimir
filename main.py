@@ -45,12 +45,12 @@ async def on_message(message):
 	if "help" == commandos:
 		e = embed("Help for Vojimír", fields=[
 				{
-					"name": "`~help`",
+					"name": "`-help`",
 					"value": "returns this",
 					"inline": True
 				},
 				{
-					"name": "`~randomKlub`",
+					"name": "`-randomKlub`",
 					"value": "returns a random team from [CSM](https://www.csmweb.net/)",
 					"inline": True
 				}
