@@ -77,7 +77,7 @@ async def on_message(message):
 				},
 				{
 					"name": "`-trh`",
-					"value": "napíše, p kterých kolech se aktualizuje trh",
+					"value": "napíše, po kterých kolech se aktualizuje trh",
 					"inline": True
 				}
 				]
