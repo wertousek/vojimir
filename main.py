@@ -48,7 +48,9 @@ async def on_message(message):
 	
 	if "kedy" in message.content.lower() and "update" in message.content.lower():
 		await message.channel.send("Zistíš, až vyjde")
-	
+		
+	if "jak" in message.content.lower() and "je" in message.content.lower() and "na" in message.content.lower() and "tom" in message.content.lower() and "nová" in message.content.lower() and "aktualizace" in message.content.lower():
+		await message.channel.send("Bude, až bude")	
 	commandos, attributes = command(message.content)
 
 	if "help" == commandos:
