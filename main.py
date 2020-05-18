@@ -67,12 +67,17 @@ async def on_message(message):
 		e = embed("Help for Vojimír", fields=[
 				{
 					"name": "`-help`",
-					"value": "returns this",
+					"value": "napíše tohle",
 					"inline": True
 				},
 				{
 					"name": "`-randomKlub`",
-					"value": "returns a random team from [CSM](https://www.csmweb.net/)",
+					"value": "napíše náhodný klub ze hry [CSM](https://www.csmweb.net/)",
+					"inline": True
+				},
+				{
+					"name": "`-trh`",
+					"value": "napíše, p kterých kolech se aktualizuje trh",
 					"inline": True
 				}
 				]
