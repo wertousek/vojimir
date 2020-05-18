@@ -85,6 +85,6 @@ async def on_message(message):
 			print(team)
 			await message.channel.send(team)
 	if "trh" == commandos:
-		print "domácí trh se nejspíše aktualizuje po těchto kolech: 3,5,8,10,13,15,18,20,23,25,28,30,33,35,38,40,43,45, s tím, že každý druhé jmenované kolo se nejspíše aktualizuje i světový trh"
+		print ("domácí trh se aktualizuje po těchto kolech: 3,5,8,10,13,15,18,20,23,25,28,30,33,35,38,40,43,45, s tím, že každékolo dělitelné pěti se nejspíše aktualizuje i světový trh")
 
 client.run(token)
