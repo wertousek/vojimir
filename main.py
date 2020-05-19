@@ -37,29 +37,24 @@ async def on_message(message):
 	if a >= spamValue and message.author.name != "Vojimír":
 		await message.channel.send(f"{message.author.mention} nespamuj!")
 
-	if "kdy" in message.content.lower() and "aktualizace" in message.content.lower():
-		await message.channel.send("Kdo ví")
-		
-	if "kdy" in message.content.lower() and "update" in message.content.lower():
-		await message.channel.send("Nikdo neví")
-
-	if "kedy" in message.content.lower() and "aktualizácia" in message.content.lower():
-		await message.channel.send("Ani boh nevie")
-	
-	if "kedy" in message.content.lower() and "update" in message.content.lower():
-		await message.channel.send("Zistíš, až vyjde")
-		
-	if "jak" in message.content.lower() and "je" in message.content.lower() and "na" in message.content.lower() and "tom" in message.content.lower() and "aktualizace" in message.content.lower():
-		await message.channel.send("Bude, až bude")
-	
-	if "kedy" in message.content.lower() and "updatu" in message.content.lower():
-		await message.channel.send("Neboj, bude")
-	
-	if "kdy" in message.content.lower() and "updatu" in message.content.lower():
-		await message.channel.send("Někdy vyjde, neboj")
-
 	if "kedy" in message.content.lower() and "aktualizacia" in message.content.lower():
 		await message.channel.send("Nauč sa písať diakritiku")
+
+	for i in [["kdy","aktualizace"],["kdy","update"],["jak","je","na","tom","aktualizace"]]:
+		b = 0
+		for j in i:
+			if j in message.content.lower():
+				b += 1
+		if b == len(i):
+			await message.channel.send(choice(["Kdo ví","Nikdo neví","Bude až bude","Někdy vyjde, neboj"]))
+
+	for i in [["kedy","aktualizácia"],["kedy","update"],["kedy","updatu"]]:
+		b = 0
+		for j in i:
+			if j in message.content.lower():
+				b += 1
+		if b == len(i):
+			await message.channel.send(choice(["Ani boh nevie","Neboj bude","Zistíš až vyjde"]))
 	
 	commandos, attributes = command(message.content)
 
