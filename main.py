@@ -38,9 +38,9 @@ async def on_message(message):
 		await message.channel.send(f"{message.author.mention} nespamuj!")
 
 	if "kedy" in message.content.lower() and "aktualizacia" in message.content.lower():
-		await message.channel.send("Nauč sa písať diakritiku")
+		await message.channel.send("Nauč sa písať diakritiku ty bezcitné hovado")
 
-	for i in [["kdy","aktualizace"],["kdy","update"],["jak","je","na","tom","aktualizace"]]:
+	for i in [["kdy","bude","aktualizace"],["kdy","vyjde","aktualizace"]["kdy","update"],["jak","je","na","tom","aktualizace"]]:
 		b = 0
 		for j in i:
 			if j in message.content.lower():
@@ -48,7 +48,7 @@ async def on_message(message):
 		if b == len(i):
 			await message.channel.send(choice(["Kdo ví","Nikdo neví","Bude až bude","Někdy vyjde, neboj"]))
 
-	for i in [["kedy","aktualizácia"],["kedy","update"],["kedy","updatu"]]:
+	for i in [["kedy","vyjde","aktualizácia"],["kedy","bude","aktualizácia"]["kedy","update"],["kedy","updatu"]]:
 		b = 0
 		for j in i:
 			if j in message.content.lower():
