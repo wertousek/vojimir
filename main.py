@@ -26,7 +26,7 @@ async def on_message(message):
 	print(f"{message.channel}: {message.author}: {message.author.name}: {message.content}")
 	if message.channel not in last10messages:
 		last10messages[message.channel] = []
-	if not message.author.bot
+	if not message.author.bot:
 		last10messages[message.channel].append({"author": message.author, "time": message.created_at, "content": message.content})
 	if len(last10messages[message.channel]) > spamValue:
 		del last10messages[message.channel][0]
