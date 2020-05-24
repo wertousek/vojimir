@@ -85,7 +85,7 @@ async def on_message(message):
 				},
 				{
 					"name": "`-prodej`",
-					"value": "napíše, za kolik procent ceny hráč prodávat",
+					"value": "**Použití**: `-prodej <cena hráče>` napíše, za kolik procent ceny hráč prodávat",
 					"inline": True
 				},
 				{
