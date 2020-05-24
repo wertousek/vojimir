@@ -31,18 +31,24 @@ async def on_message(message):
 	if len(last10messages[message.channel]) > spamValue:
 		del last10messages[message.channel][0]
 	a = 0
-	for message in last10messages[message.channel]:
-		if message["author"] == message.author:
+	print(len(last10messages[message.channel]), last10messages)
+	for msg in last10messages[message.channel]:
+		for i in msg:
+			print(msg[i])
+		if msg["author"] == message.author:
 			a += 1
 		else:
 			break
-	if (a >= spamValue and message.created_at - last10messages[message.channel][-2]["time"] < datetime.timedelta(seconds = 60)) or last10messages[message.channel][-2]["content"] == message.content:
-		await message.channel.send(f"{message.author.mention} nespamuj!")
+	try:
+		if (a >= spamValue and message.created_at - last10messages[message.channel][-2]["time"] < datetime.timedelta(seconds = 60)) or last10messages[message.channel][-2]["content"] == message.content:
+			await message.channel.send(f"{message.author.mention} nespamuj!")
+	except:
+		pass
 
 	if "kedy" in message.content.lower() and "aktualizacia" in message.content.lower():
 		await message.channel.send("Nauč sa písať diakritiku ty bezcitné hovado")
 
-	for i in [["kdy","bude","aktualizace"],["kdy","vyjde","aktualizace"]["kdy","update"],["jak","je","na","tom","aktualizace"]]:
+	for i in [["kdy","bude","aktualizace"],["kdy","vyjde","aktualizace"],["kdy","update"],["jak","je","na","tom","aktualizace"]]:
 		b = 0
 		for j in i:
 			if j in message.content.lower():
@@ -50,7 +56,7 @@ async def on_message(message):
 		if b == len(i):
 			await message.channel.send(choice(["Kdo ví","Nikdo neví","Bude až bude","Někdy vyjde, neboj"]))
 
-	for i in [["kedy","vyjde","aktualizácia"],["kedy","bude","aktualizácia"]["kedy","update"],["kedy","updatu"]]:
+	for i in [["kedy","vyjde","aktualizácia"],["kedy","bude","aktualizácia"],["kedy","update"],["kedy","updatu"]]:
 		b = 0
 		for j in i:
 			if j in message.content.lower():
@@ -103,6 +109,6 @@ async def on_message(message):
 
 	if "hostovani" == commandos:
 		attributes = [i for i in map(int,attributes.split(" "))]
-		await message.channel.send(f"Hráče hostuj za {attributes[0]/3/attributes[1]*attributes[2]} £.")
+		await message.channel.send(f"Hráče hostuj za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
 
 client.run(token)
