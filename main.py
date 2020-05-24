@@ -110,5 +110,7 @@ async def on_message(message):
 	if "hostovani" == commandos:
 		attributes = [i for i in map(int,attributes.split(" "))]
 		await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
+	if "hostovani" == commandos:
+		await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16`")
 
 client.run(token)
