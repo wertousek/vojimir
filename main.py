@@ -108,7 +108,7 @@ async def on_message(message):
 		if attributes == None:
 			await message.channel.send("Hráče se doporučuje prodávat za 80 až 90% jeho ceny")
 		else:
-			await message.channel.send(f"Hráče prodej za {int(attributes)*0.8} až {int(attributes)*0.9}")
+			await message.channel.send(f"Hráče prodej za {int(int(attributes)*0.8)}£ až {int(int(attributes)*0.9)}£")
 
 	if "hostovani" == commandos:
 		try:
