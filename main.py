@@ -105,12 +105,16 @@ async def on_message(message):
 	if "trh" == commandos:
 		await message.channel.send("Domácí trh se aktualizuje po těchto kolech: 3,5,8,10,13,15,18,20,23,25,28,30,33,35,38,40,43,45, s tím, že každé kolo dělitelné pěti se nejspíše aktualizuje i světový trh")
 	if "prodej" == commandos:
-		await message.channel.send("Hráče se doporučuje prodávat za 80 až 90% jeho ceny")
+		if attributes == None:
+			await message.channel.send("Hráče se doporučuje prodávat za 80 až 90% jeho ceny")
+		else:
+			await message.channel.send(f"Hráče prodej za {int(attributes)*0.8} až {int(attributes)*0.9}")
 
 	if "hostovani" == commandos:
-		attributes = [i for i in map(int,attributes.split(" "))]
-		await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
-	if "hostovani" == commandos:
-		await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16`")
+		try:
+			attributes = [i for i in map(int,attributes.split(" "))]
+			await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
+		except:
+			await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16`")
 
 client.run(token)
