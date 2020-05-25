@@ -45,7 +45,7 @@ async def on_message(message):
 	except:
 		pass
 
-	if "kedy" in message.content.lower() and "aktualizacia" in message.content.lower():
+	"""if "kedy" in message.content.lower() and "aktualizacia" in message.content.lower():
 		await message.channel.send("Nauč sa písať diakritiku ty bezcitné hovado")
 
 	for i in [["kdy","bude","aktualizace"],["kdy","vyjde","aktualizace"],["kdy","update"],["jak","je","na","tom","aktualizace"]]:
@@ -62,7 +62,7 @@ async def on_message(message):
 			if j in message.content.lower():
 				b += 1
 		if b == len(i):
-			await message.channel.send(choice(["Ani boh nevie","Neboj bude","Zistíš až vyjde"]))
+			await message.channel.send(choice(["Ani boh nevie","Neboj bude","Zistíš až vyjde"]))"""
 	
 	commandos, attributes = command(message.content)
 
