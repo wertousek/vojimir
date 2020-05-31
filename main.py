@@ -75,7 +75,12 @@ async def on_message(message):
 				},
 				{
 					"name": "`-randomKlub`",
-					"value": "napíše náhodný klub ze hry [CSM](https://www.csmweb.net/)",
+					"value": "napíše náhodný klub z aktualizace Jaro20 do hry [CSM](https://www.csmweb.net/)",
+					"inline": True
+				},
+				{
+					"name": "`-randomKlub18`",
+					"value": "napíše náhodný klub z aktualizace Podzim18 do hry [CSM](https://www.csmweb.net/)",
 					"inline": True
 				},
 				{
@@ -98,7 +103,12 @@ async def on_message(message):
 		await message.channel.send(embed=e)
 
 	if "randomKlub" == commandos:
-		with open("teams.txt","r") as teams:
+		with open("teams20.txt","r") as teams:
+			team = choice(teams.read().split("\n"))
+			print(team)
+			await message.channel.send(team)
+	if "randomKlub18" == commandos:
+		with open ("teams.txt","r") as teams:
 			team = choice(teams.read().split("\n"))
 			print(team)
 			await message.channel.send(team)
