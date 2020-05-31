@@ -112,6 +112,16 @@ async def on_message(message):
 			team = choice(teams.read().split("\n"))
 			print(team)
 			await message.channel.send(team)
+	if "randomklub" == commandos:
+		with open("teams20.txt","r") as teams:
+			team = choice(teams.read().split("\n"))
+			print(team)
+			await message.channel.send(team)
+	if "randomklub18" == commandos:
+		with open ("teams.txt","r") as teams:
+			team = choice(teams.read().split("\n"))
+			print(team)
+			await message.channel.send(team)
 	if "trh" == commandos:
 		await message.channel.send("Domácí trh se aktualizuje po těchto kolech: 3,5,8,10,13,15,18,20,23,25,28,30,33,35,38,40,43,45, s tím, že každé kolo dělitelné pěti se nejspíše aktualizuje i světový trh")
 	if "prodej" == commandos:
