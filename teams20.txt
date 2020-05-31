@@ -1,0 +1,1408 @@
+ALB1 - KF Bylis Balls
+ALB1 - KS Flamutari Vlorë
+ALB1 - KF Skënderbeu Korçë
+ALB1 - FK Kukësi
+ALB1 - KF Laçi
+ALB1 - KS Luftëtari Gjirokastër
+ALB1 - FK Parizani Tiranë
+ALB1 - KF Teuta Durrës
+ALB1 - KF Tirana
+ALB1 - KF Vllaznia Skhöder
+ALB2 - KF Apolonia Fier
+ALB2 - KS Besa Kavajë
+ALB2 - KS Burreli
+ALB2 - KS Devoli
+ALB2 - FK Dinamo Tirana
+ALB2 - KF Egnatia Rrogozhinë
+ALB2 - KF Elbasani
+ALB2 - KF Erzeni Shijak
+ALB2 - KF Iliria Fushë-Krujë -
+ALB2 - KF Korabi Peshkopi
+ALB2 - KS Kastrioti Krujë
+ALB2 - KS Besëlidhja Lezhë
+ALB2 - KS Lushnja
+ALB2 - KF Oriku
+ALB2 - KS Pogradeci
+ALB2 - FC Shënkolli
+ALB2 - KF Shkumbini Peqin
+ALB2 - KF Tërbuni Pukë
+ALB2 - KS Turbina Cërik
+ALB2 - FK Veleçiku Koplik
+ENG1 - Arsenal FC
+ENG1 - Aston Villa FC
+ENG1 - AFC Bournemouth
+ENG1 - Brighton and Hove Albion
+ENG1 - Burnley FC
+ENG1 - Chelsea FC
+ENG1 - Crystal Palace FC
+ENG1 - Everton FC
+ENG1 - Leicester City
+ENG1 - Liverpool FC
+ENG1 - Manchester City
+ENG1 - Manchester United FC
+ENG1 - Newcastle United
+ENG1 - Norwich City
+ENG1 - Sheffield United
+ENG1 - Southampton FC
+ENG1 - Tottenham Hotspurs
+ENG1 - Watford FC
+ENG1 - West Ham United
+ENG1 - Wolverhampton Wanderers
+ENG2 - Barnsley FC
+ENG2 - Birmingham City
+ENG2 - Blackburn Rovers
+ENG2 - Brentford FC
+ENG2 - Bristol City
+ENG2 - Cardiff City
+ENG2 - Charlton Athletic
+ENG2 - Derby County
+ENG2 - Fulham FC
+ENG2 - Huddersfield Town
+ENG2 - Hull City
+ENG2 - Leeds United
+ENG2 - Luton Town
+ENG2 - Middlesbrough FC
+ENG2 - Milwall FC
+ENG2 - Nottingham Forest
+ENG2 - Preston North End
+ENG2 - Queens Park Rangers
+ENG2 - Reading FC
+ENG2 - Sheffield Wednesday
+ENG2 - Stoke City
+ENG2 - Swansea City AFC
+ENG2 - West Bromwich Albion
+ENG2 - Wigan Athletic
+ENG3 - Accrington Stanley FC
+ENG3 - Blackpool FC
+ENG3 - Bolton Wanderers FC
+ENG3 - Bristol Rovers FC
+ENG3 - Burton Albion FC
+ENG3 - Coventry City FC
+ENG3 - Doncaster Rovers FC
+ENG3 - Fleetwood Town FC
+ENG3 - Gillingham FC
+ENG3 - Ipswich Town FC
+ENG3 - Lincoln City FC
+ENG3 - Milton Keynes Dons FC
+ENG3 - Oxford United FC
+ENG3 - Peterborough United FC
+ENG3 - Portsmouth FC
+ENG3 - Rochdale AFC
+ENG3 - Rotherham United FC
+ENG3 - Shrewsbury Town FC
+ENG3 - Southend United FC
+ENG3 - Sunderland AFC
+ENG3 - Swindon Town FC
+ENG3 - Tranmere Rovers FC
+ENG3 - AFC Wimbledon
+ENG3 - Wycombe Wanderers FC
+BEL1 - RSC Anderlecht
+BEL1 - Royal Antwerp FC
+BEL1 - Waasland-Beveren
+BEL1 - Club Brugge KV
+BEL1 - Cercle Brugge
+BEL1 - RSC Charleroi
+BEL1 - KAS Eupen
+BEL1 - KRC Genk
+BEL1 - KAA Gent
+BEL1 - KV Kortrijk
+BEL1 - YR KV Mechelen
+BEL1 - Royal Excel Mouscron
+BEL1 - KV Oostende
+BEL1 - Royal Standard de Liege
+BEL1 - Sint-Truidense VV
+BEL1 - SV Zulte Waregem
+BEL2 - KFCO Beerschot-Wilrijk
+BEL2 - KMSK Deinze
+BEL2 - Royal Union Saint Gilloise
+BEL2 - Oud-Heverlee Leuven
+BEL2 - KSC Lokeren
+BEL2 - Lommel SK
+BEL2 - KSV Roeselare
+BEL2 - KVV Thes Sport
+BEL2 - Royal Excelsior Virton
+BEL2 - KVC Westerlo
+BEL3 - RC Olympic Charleroi
+BEL3 - FCV Dender EH
+BEL3 - KFC Dessel Sport
+BEL3 - KSK Heist
+BEL3 - KSK Lierse Kempenzonen
+BEL3 - UR La Louviére Centre
+BEL3 - RFC de Liege
+BEL3 - RWD Molenbeek
+BEL3 - Patro Eisden Maascmecehlen
+BEL3 - FC Rupel Boom
+BEL3 - RFC Seraing
+BEL3 - AFC Tubize
+BEL3 - URSL Visé
+BEL3 - KVC Winkel Sport
+BLS1 - FK BATE Borisov
+BLS1 - FK Belshina Bobruisk
+BLS1 - FK Dynamo Brest
+BLS1 - FK Dinamo Minsk
+BLS1 - FK Energetik-BGU Minsk
+BLS1 - FK Gorodeya
+BLS1 - FK Isloch Minskiy Rayon
+BLS1 - FK Minsk
+BLS1 - FK Slavia Mozyr
+BLS1 - FK Neman Grodno
+BLS1 - Rukh Brest FC
+BLS1 - FK Slutsk
+BLS1 - FC Smolevichi
+BLS1 - FK Shakhtyor Soligorsk
+BLS1 - FK Torpedo-BelAZ Zhodino
+BLS1 - FK Vitebsk
+BIH1 - FK Borac Banja Luka
+BIH1 - FK Mladost Doboj-Kakanj
+BIH1 - HŠK Zrinjski Mostar
+BIH1 - FK Radnik Bijeljina
+BIH1 - FK Sarajevo
+BIH1 - NK Široki Brijeg
+BIH1 - FK Sloboda Tuzla
+BIH1 - FK Tuzla City
+BIH1 - FK Velež Mostar
+BIH1 - FK Željezničar Sarajevo
+BIH1 - NK Čelik Zenica
+BIH1 - FK Zvijezda 09
+BUL1 - FK Arda 1924 Kardzhali
+BUL1 - PFK Beroe Stara Zagora
+BUL1 - FK Vitosha Bistritsa
+BUL1 - FK Botev Plodiv
+BUL1 - PFK Dunav Ruse
+BUL1 - PFK Levski Sofia
+BUL1 - PFK Lokomotiv Plodiv
+BUL1 - PFK Ludogorets Razgrad
+BUL1 - PFK CSKA Sofia
+BUL1 - PFK Slavia Sofia
+BUL1 - FK Etar Veliko Târnovo
+BUL1 - FA Tsarsko Selo 2015 Sofia
+BUL1 - PFK Cherno More Varna
+BUL1 - POFK Botev Vratsa
+MON1 - FK Budućnost Podgorica
+MON1 - FK Iskra Danilovgrad
+MON1 - OFK Grbalj
+MON1 - FK Kom Podgorica
+MON1 - FK Sutjeska Nikšić
+MON1 - OFK Petrovac
+MON1 - FK Podgorica
+MON1 - FK Rudar Pljevlja
+MON1 - OFK Titograd
+MON1 - FK Zeta Golubovac
+CZE1 - Bohemians 1905
+CZE1 - FC Baník Ostrava
+CZE1 - FK Mladá Boleslav
+CZE1 - SK Dynamo České Budějovice
+CZE1 - FK Jablonec
+CZE1 - MFK Karviná
+CZE1 - FC Slovan Liberec
+CZE1 - SK Sigma Olomouc
+CZE1 - SFC Opava
+CZE1 - FC Viktoria Plzeň
+CZE1 - 1. FK Příbram
+CZE1 - SK Slavia Praha
+CZE1 - 1. FC Slovácko
+CZE1 - AC Sparta Praha
+CZE1 - FK Teplice
+CZE1 - FC Fastav Zlín
+CZE2 - FC Zbrojovka Brno
+CZE2 - MFK Chrudim
+CZE2 - FK Dukla Praha
+CZE2 - FC Hradec Králové
+CZE2 - FC Vysočina Jihlava
+CZE2 - SK Líšeň
+CZE2 - FK Pardubice
+CZE2 - 1. SK Prostějov
+CZE2 - FK Baník Sokolov
+CZE2 - FK Fotbal Třinec
+CZE2 - FK Ústí nad Labem
+CZE2 - FK Varnsdorf
+CZE2 - MFK Vítkovice
+CZE2 - FC Sellier Bellot Vlašim
+CZE2 - FK Slavoj Vyšehrad
+CZE2 - FK Viktoria Žižkov
+CZE3 - FK Admira Praha
+CZE3 - FK Blansko
+CZE3 - FK Chlumec nad Cidlinou
+CZE3 - TJ Jiskra Domažlice
+CZE3 - MFK Frýdek-Místek
+CZE3 - FK Králův Dvůr
+CZE3 - SK Hanácká Slavia Kroměříž
+CZE3 - FK Motorlet Praha
+CZE3 - FC Viktoria Otrokovice
+CZE3 - FC Odra Petřkovice
+CZE3 - FC Písek
+CZE3 - FC MAS Táborsko
+CZE3 - FC Slovan Rosice
+CZE3 - SK Uničov
+CZE3 - TJ Jiskra Ústí nad Orlicí
+CZE3 - FC Velké Meziříčí
+CZE3 - FC Slovan Velvary
+CZE3 - FK Loko Vltavín
+CZE3 - SFK Nové Město nad Moravě
+CZE3 - MFK Vyškov
+CZE3 - SK Zápy
+CZE3 - FK Zbuzany
+CZE3 - TJ Sokol Živanice
+CZE3 - 1. SC Znojmo FK
+DEN1 - Aalborg BK
+DEN1 - Aarhus GF
+DEN1 - Bröndby IF
+DEN1 - Esbjerg fB
+DEN1 - Hobro IK
+DEN1 - AC Horsens
+DEN1 - FC Köbenhavn
+DEN1 - Lyngby BK
+DEN1 - FC Midtjylland
+DEN1 - FC Nordsjaelland
+DEN1 - Odense Boldklub
+DEN1 - Randers FC
+DEN1 - Silkeborg IF
+DEN1 - SönderjyskE
+DEN2 - FC Fredericia
+DEN2 - BK Fremad Amager
+DEN2 - Hvidore IF
+DEN2 - HB Köge
+DEN2 - Kolding IF
+DEN2 - Naestved Boldklub
+DEN2 - Nyköbing FC
+DEN2 - FC Roskilde
+DEN2 - Skive IK
+DEN2 - Velje Boldklub
+DEN2 - Vendsyssel FF
+DEN2 - Viborg FF
+EST1 - FC Flora Tallinn	
+EST1 - JK Tallinna Kalev	
+EST1 - JK Kalju Nömme
+EST1 - FC Kuressaare
+EST1 - Tallinn JK Legion
+EST1 - FC Levadia Tallinn
+EST1 - JK Narva Trans
+EST1 - Paide Linnameeskond
+EST1 - JK Tammeka
+EST1 - JK Viljandi Tulevik
+EST2 - FC Elva
+EST2 - Kohlta-Järve JK Järve
+EST2 - Keila JK
+EST2 - Maardu Linnameeskond
+EST2 - FC Nömme United
+EST2 - Pärnu JK Vaprus
+EST2 - Pärnu JK
+EST2 - Rakvere IK Tarvas
+EST2 - JK Vändra Vaprus
+EST2 - Tartu JK Welco
+EST3 - FC Ajax Tallinn
+EST3 - FCI Tallinn
+EST3 - FC Helios Voru
+EST3 - FC Jogeva Wolves
+EST3 - Läänema JK Haapsalu
+EST3 - JK Sillamäe Kalev
+EST3 - Tartu FC Santos
+EST3 - JK Tabasalu
+EST3 - Talinna FC Arararat
+EST3 - Viimsi JK
+FAR1 - Argja Argir
+FAR1 - B36 Tórshavn
+FAR1 - Ítróttargelag Fuglafjördur
+FAR1 - Havnar Bóltfelag
+FAR1 - Klaksvíkar Ítróttarfelag
+FAR1 - NSÍ Runavík
+FAR1 - Skála IF
+FAR1 - EB/Streymur
+FAR1 - Tvöroyrar Bóltgelag
+FAR1 - Vikingur Göta
+FIN1 - FC Haka
+FIN1 - Helsinki IFK
+FIN1 - HJK Helsinki
+FIN1 - FC Honka
+FIN1 - FC Ilves Tampere
+FIN1 - FC Inter Turku
+FIN1 - Kuopion Palloseura
+FIN1 - FC Lahti
+FIN1 - IFK Mariehamn
+FIN1 - Rovaniemen Palloseura
+FIN1 - SJK Seinäjoki
+FIN1 - Turun Palloseura
+FRA1 - Amiens FC
+FRA1 - Angers SCO
+FRA1 - FC Girondins de Bordeaux
+FRA1 - Stade Brestois 29
+FRA1 - Dijon FCO
+FRA1 - Lille OSC
+FRA1 - Olympique Lyon
+FRA1 - Olympique Marseille
+FRA1 - FC Metz
+FRA1 - AS Monaco
+FRA1 - Montepllier Hérault SC
+FRA1 - FC Nantes
+FRA1 - OGC Nice
+FRA1 - Nîmes Olympique
+FRA1 - Paris Saint-Germain
+FRA1 - Stade de Reims
+FRA1 - Stade Rennais FC
+FRA1 - AS Saint-Étienne
+FRA1 - Racing Club de Strasbourg
+FRA1 - Toulouse FC
+FRA2 - AC Ajaccio
+FRA2 - AJ Auxerre
+FRA2 - Stade Malherbe Caen
+FRA2 - FC Chambly
+FRA2 - LB Chateauroux
+FRA2 - Clermont Foot Auvergne 63
+FRA2 - Grenoble Foot 38
+FRA2 - EA Guingamp
+FRA2 - Le Havre AC
+FRA2 - Le Mans FC
+FRA2 - Racing Club de Lens
+FRA2 - FC Lorient
+FRA2 - AS Nancy-Lorraine
+FRA2 - Chamois Niortais
+FRA2 - US Orléans Loiret Football
+FRA2 - Paris FC
+FRA2 - Rodez AF
+FRA2 - FC Sochaux-Montbéliard
+FRA2 - ES Troyes AC
+FRA2 - Valenciennes FC
+FRA3 - US Avranches Mt. St. Michel
+FRA3 - FC Bastia-Borgo
+FRA3 - AS Béziers
+FRA3 - US Boulogne
+FRA3 - Bourg-en-Bresse Péronnas
+FRA3 - SO Cholet
+FRA3 - US Concarneau
+FRA3 - US Créteil-Lusitanos
+FRA3 - AS Lyon Duchére
+FRA3 - USL Dunkerque
+FRA3 - Gazélec FCO Ajaccop
+FRA3 - Stade Lavallois Mayenne FC
+FRA3 - Le Puy Foot 43 Auvergne
+FRA3 - Pau FC
+FRA3 - Quevilly-Rouen Métropole
+FRA3 - Red Star FC 93
+FRA3 - Sporting Club de Toulon
+FRA3 - FC Villenfranche-Beaujolais
+GIB1 - FC Boca Gibraltar
+GIB1 - FC Bruno's Magpies
+GIB1 - FC College 1975
+GIB1 - Europa FC
+GIB1 - Europa Point FC
+GIB1 - Glacis United FC
+GIB1 - Lincoln Red Imps FC
+GIB1 - Lions Gibraltar FC
+GIB1 - Lynx FC
+GIB1 - Manchester 62 FC
+GIB1 - Mons Calpe SC
+GIB1 - St Joseph's FC
+CRO1 - GNK Dinamo Zagreb
+CRO1 - HNK Gorica
+CRO1 - HNK Hajduk Split
+CRO1 - NK Istra 1961
+CRO1 - NK Lokomotiva Zagreb
+CRO1 - NK Osijek
+CRO1 - HNK Rijeka
+CRO1 - NK Slaven Belupo
+CRO1 - NK Varaždin
+CRO1 - NK Inter Zaprešić
+CRO2 - NK BSK Bijelo Brdo
+CRO2 - HNK Cibalia Vinkovici
+CRO2 - GNK Dinamo Zagreb B
+CRO2 - NK Hrvatski Dragovoljac
+CRO2 - NK Dubrava Tim Kabel
+CRO2 - NK Dugopolje
+CRO2 - HNK Hajduk Split B
+CRO2 - NK Kustošija Zagreb
+CRO2 - NK Medjimurje Cerovec
+CRO2 - HNK Orijent 1919
+CRO2 - NK Osijek B
+CRO2 - NK Rudeš
+CRO2 - NK Sesvete
+CRO2 - HNK Šibenik
+CRO2 - NK Solin
+CRO2 - NK Croatia Zmijavci
+IRL1 - Bohemian FC
+IRL1 - Cork City FC
+IRL1 - Derry City FC
+IRL1 - Dundalk FC
+IRL1 - Finn Harps FC
+IRL1 - St Patrick's Athletic FC
+IRL1 - Shamrock Rovers FC
+IRL1 - Shelbourne FC
+IRL1 - Sligo Rovers FC
+IRL1 - Waterford FC
+ISL1 - ÍA Akranes
+ISL1 - Breidablík
+ISL1 - FH Hafnarfjordur
+ISL1 - Fjölnir
+ISL1 - FC Fylkir
+ISL1 - IF Grótta
+ISL1 - HK Kópavogur
+ISL1 - KA Akureyri
+ISL1 - KR Reykjavík
+ISL1 - FC Stjarnan
+ISL1 - Valur Reykjavík
+ISL1 - Víkingur Reykjavík
+ISL2 - UMF Afturelding
+ISL2 - Fram Reykjavík
+ISL2 - UMF Grindavík
+ISL2 - ÍB Vestmannaeyja
+ISL2 - Keflavík ÍF
+ISL2 - Leiknir Reykjavík
+ISL2 - Leiknir Fáskrúdsfjördur
+ISL2 - Magni Grenivík
+ISL2 - Vikingur Ólafsvík
+ISL2 - Thór Akureyri
+ISL2 - Thróttur Reykjavík
+ISL2 - Vestri Ísafjördur
+ISL3 - Dalvík/Reynir
+ISL3 - KF Fjardabyggd
+ISL3 - Haukar Hafnarfjördur
+ISL3 - Volsungur Husavík
+ISL3 - ÍR Reykjavík
+ISL3 - Kári Akranes
+ISL3 - KF Fjallabyggdar
+ISL3 - Kórdrengir
+ISL3 - UMF Njardvík
+ISL3 - UMF Selfoss
+ISL3 - Throttur Vogum
+ISL3 - KF Vidir
+ITA1 - Atalanta BC
+ITA1 - Bologna FC 1909
+ITA1 - Brescia Calcio
+ITA1 - Cagliari Calcio
+ITA1 - ACF Fiorentina
+ITA1 - Genoa CFC
+ITA1 - Hellas Verona FC
+ITA1 - FC Internazionale Milano
+ITA1 - Juventus FC
+ITA1 - SS Lazio
+ITA1 - US Lecce
+ITA1 - AC Milan
+ITA1 - SSC Napoli
+ITA1 - Parma Calcio 1913
+ITA1 - AS Roma
+ITA1 - UC Sampdoria
+ITA1 - US Sassuolo Calcio
+ITA1 - SPAL 2013
+ITA1 - Torino FC
+ITA1 - Udinese Calcio
+ITA2 - Ascoli Calcio 1898 F.C.
+ITA2 - Benevente Calcio
+ITA2 - AC Chievo Verona
+ITA2 - AS Cittadella
+ITA2 - Cosenza Calcio
+ITA2 - US Cremonese
+ITA2 - FC Crotone
+ITA2 - Empoli FC
+ITA2 - ACD Virtus Entella
+ITA2 - Frosinone Calcio
+ITA2 - AS Livorno Calcio
+ITA2 - AC Perugia Calcio
+ITA2 - Delfino Pescara 1936
+ITA2 - AC Pisa 1909
+ITA2 - Pordenone Calcio
+ITA2 - US Salernitana 1919
+ITA2 - Spezia Calcio
+ITA2 - SS Juve Stabia
+ITA2 - ASD Trapani Calcio
+ITA2 - Venezia FC
+ITA3 - UC Albinoleffe
+ITA3 - US Alessandria Calcio 1912
+ITA3 - SSC Bari
+ITA3 - Carpi FC 1909- ITA3
+ITA3 - Carrarese Calcio 1908
+ITA3 - Calcio Catania
+ITA3 - US Catanzaro 1929
+ITA3 - Feralpisaló
+ITA3 - SS Monopoli 1966
+ITA3 - AC Monza
+ITA3 - Novara Calcio
+ITA3 - Calcio Padova
+ITA3 - Piacenza Calcio
+ITA3 - US Cittá Di Pontedera
+ITA3 - Potenza Calcio
+ITA3 - Reggio Audace FC
+ITA3 - Reggina 1914
+ITA3 - AC Renate
+ITA3 - Robur Siena
+ITA3 - FC Südtirol
+ITA3 - Teramo Calcio
+ITA3 - Ternana Calcio
+ITA3 - US Triestina Calcio 1918
+ITA3 - L.R. Vicenza Virtus
+ISR1 - FC Ashdod
+ISR1 - Hapoel Beer-Sheva FC
+ISR1 - Beitar Jerusalem FC
+ISR1 - Bnei Yehuda Tel Aviv
+ISR1 - Hapoel Hadera
+ISR1 - Hapoel Haifa FC
+ISR1 - Hapoel Tel Aviv FC
+ISR1 - Hapoel Kfar-Saba FC
+ISR1 - Maccabi Haifa FC
+ISR1 - Maccabi Tel Aviv FC
+ISR1 - Maccabi Netanya FC
+ISR1 - Hapoel Ra'anana FC
+ISR1 - Kiryat Shmona FC
+ISR1 - Sektzia Nes Tziona
+KAZ1 - FC Astana
+KAZ1 - FK Kairat Almaty
+KAZ1 - FK Shakhter Karagandy
+KAZ1 - FK Kaspiy Aktau
+KAZ1 - FC Kaysar Kyzylorda
+KAZ1 - FK Okzhetpes Kokshetau
+KAZ1 - FK Ordabasy Shykment
+KAZ1 - FK Irtysh Pavlodar
+KAZ1 - Qyzyljar SK Petropavlovsk
+KAZ1 - FK Taraz
+KAZ1 - FK Tobol Kostanay
+KAZ1 - FK Zhetysu Taldykorgan
+KOS1 - FC Balkani
+KOS1 - KF Drenica
+KOS1 - FC Drita Gjilani
+KOS1 - KF Dukagjini Klinë
+KOS1 - KF Ferizaj
+KOS1 - KF Feronikeli Drenas
+KOS1 - KF Flamurtari Prishtinë
+KOS1 - SC Gjilani
+KOS1 - KF Llapi
+KOS1 - FC Prishtina
+KOS1 - KF Trepça '89
+KOS1 - KF Vushtrria
+CYP1 - Anorthosis Famagusta
+CYP1 - APOEL Nicosia
+CYP1 - Apollon Limassol
+CYP1 - Doxa Katakopias
+CYP1 - Enosis Neon Parlimni
+CYP1 - Ethnikos Achnas
+CYP1 - AEK Larnaka
+CYP1 - AEL Limassol
+CYP1 - Olympiakos Nicosia
+CYP1 - Omonia Nicosia
+CYP1 - Pafos FC
+CYP1 - Nea Salamis Famagusta
+LIT1 - FK Banga Gargdžai
+LIT1 - DFK Dainava Alytus
+LIT1 - Telšiu Džiugas
+LIT1 - FK Kauno Žalgiris
+LIT1 - Kédainiu FK Nevežis
+LIT1 - FK Panevežys
+LIT1 - FK Riterai
+LIT1 - FK Suduva Marijampole
+LIT1 - VMFD Žalgiris Vilnius
+LIT1 - FC Vilniaus Vytis
+LAT1 - BFC Daugavpils
+LAT1 - FK Jelgava
+LAT1 - FK Liepaja
+LAT1 - FS Metta/LU
+LAT1 - FC Riga
+LAT1 - Riga Futbola Skola
+LAT1 - FK Spartaks Jurmala
+LAT1 - FK Tukums 2000/TSS
+LAT1 - Valmiera FC
+LAT1 - FK Ventpils
+LUX1 - FC Differdange 03
+LUX1 - F91 Dudelange
+LUX1 - FC Etzella Ettelbruck
+LUX1 - CS Fola Esch
+LUX1 - US Hostert
+LUX1 - Jeunesse Esch
+LUX1 - US Mondorf-Les-Bains
+LUX1 - FC Blue Boys Muhlenbach
+LUX1 - FC Progrés Niederkorn
+LUX1 - FC Rodange 91
+LUX1 - FC Victoria Rosport
+LUX1 - FC UNA Strassen
+LUX1 - Racing FC Union Luxembourg
+LUX1 - Union Titus Pétange
+HUN1 - Debreceni VSC
+HUN1 - Diósgyöri VTK
+HUN1 - Ferencvárosi TC
+HUN1 - Budapest Honvéd
+HUN1 - Kaposvári Rákoczi FC
+HUN1 - Paksi FC
+HUN1 - Puskás Akadémia FC
+HUN1 - Újpest FC
+HUN1 - Kisvárda FC
+HUN1 - MOL Fehérvár FC
+HUN1 - Mezökövesd Zsöry FC
+HUN1 - Zalaegerszegi TE FC
+GER1 - FC Augsburg
+GER1 - FC Bayern München
+GER1 - Borussia Dortmund
+GER1 - Fortuna Düsseldorf
+GER1 - Eintracht Frankfurt
+GER1 - SC Freiburg
+GER1 - Borussia Mönchengladbach
+GER1 - Hertha BSC
+GER1 - TSG 1899 Hoffenheim
+GER1 - 1. FC Köln
+GER1 - RasenBallsport Leipzig
+GER1 - Bayer 04 Leverkusen
+GER1 - 1. FSV Mainz 05
+GER1 - SC Paderborn 07
+GER1 - FC Schalke 04
+GER1 - 1. FC Union Berlin
+GER1 - SV Werder Bremen
+GER1 - VfL Wolfsburg
+GER2 - DSC Arminia Biefeld
+GER2 - FC Erzgebirge Aue
+GER2 - VfL Bochum 1848
+GER2 - SV Darmstadt 98
+GER2 - SG Dynamo Dresden
+GER2 - SpVgg Greuther Fürth
+GER2 - Hamburger SV
+GER2 - Hannover 96
+GER2 - 1. FC Heidenheim 1846
+GER2 - Kieler S.V. Holstein
+GER2 - Karlsruher SC
+GER2 - 1. FC Nürnberg
+GER2 - VfL Osnabrück
+GER2 - SSV Jahn Regensburg
+GER2 - SV Sandhausen 1916
+GER2 - FC St. Pauli
+GER2 - VfB Stuttgart
+GER2 - SV Wehen Wiesbaden
+GER3 - FC Bayern München B
+GER3 - Eintracht Braunschweig
+GER3 - Chemnitzer FC
+GER3 - MSV Duisburg
+GER3 - SG Sonnenhof Grossapach
+GER3 - Hallescher FC
+GER3 - FC Ingolstadt 04
+GER3 - FC Carl Zeiss Jena
+GER3 - 1. FC Kaiserslautern
+GER3 - 1. FC Magdeburg
+GER3 - SV Waldhof Mannheim
+GER3 - SV Meppen 1912
+GER3 - TSV 1860 München
+GER3 - SC Preussen Münster
+GER3 - FC Hansa Rostock
+GER3 - KFC Uerdingen 05
+GER3 - SpVgg Unterhaching
+GER3 - FC Viktoria Köln
+GER3 - FC Würzburger Kickers
+GER3 - FSC Zwickau
+HOL1 - AFC Ajax
+HOL1 - AZ Alkmaar
+HOL1 - FC Emmen
+HOL1 - Feyenoord Rotterdam
+HOL1 - FC Groningen
+HOL1 - ADO Den Haag
+HOL1 - SC Heerenveen
+HOL1 - Heracles Almelo
+HOL1 - PSV Eindhoven
+HOL1 - Fortuna Sittard
+HOL1 - Sparta Rotterdam
+HOL1 - FC Twente
+HOL1 - FC Utrecht
+HOL1 - VVV Venlo
+HOL1 - SBV Vitesse
+HOL1 - RKC Waalwijk
+HOL1 - Willem II
+HOL1 - PEC Zwolle
+HOL2 - AFC Ajax B
+HOL2 - Almere City FC
+HOL2 - AZ Alkmaar B
+HOL2 - NAC Breda
+HOL2 - SC Cambuur
+HOL2 - FC Den Bosch
+HOL2 - FC Dordrecht
+HOL2 - Go Ahead Eagles
+HOL2 - FC Eindhoven
+HOL2 - SBV Excelsior
+HOL2 - TOP Oss
+HOL2 - BV De Graafschap
+HOL2 - Helmond Sport
+HOL2 - MVV Maastricht
+HOL2 - NEC Nijmegen
+HOL2 - PSV Eindhoven B
+HOL2 - Roda JC Kerkrade
+HOL2 - SC Telstar
+HOL2 - FC Utrecht B
+HOL2 - FC Volendam
+NOR1 - Aalesunds FK
+NOR1 - SK Brann Bergen
+NOR1 - FK Bodö/Glimt
+NOR1 - FK Haugesund
+NOR1 - Kristiansund BK
+NOR1 - Mjöndalen IF
+NOR1 - Molde FK
+NOR1 - Odds BK
+NOR1 - Rosenborg BK
+NOR1 - Sandefjord Fotball
+NOR1 - Sarpsborg 08
+NOR1 - Stabaek IF
+NOR1 - IK Start Kristiansand
+NOR1 - Strömsgodset IF
+NOR1 - Valerenga IF 
+NOR1 - Viking FK
+NOR2 - Asane Fotball
+NOR2 - Grorud IL
+NOR2 - Hamarkameratene
+NOR2 - FK Jerv
+NOR2 - KFUM-Kamratene Oslo
+NOR2 - Kongsvinger IL
+NOR2 - Lilleström SK
+NOR2 - Öygarden FK
+NOR2 - Ranheim IL
+NOR2 - Raufoss IL
+NOR2 - Sandnes Ulf
+NOR2 - Sogndal IL
+NOR2 - Stjördals Blink IL
+NOR2 - Strömmen IF
+NOR2 - Tromsö IL
+NOR2 - Ullensaker/Kisa IL
+POL1 - MZKS Arka Gdynia
+POL1 - MKS Cracovia Kraków
+POL1 - Lechia Gdansk SA
+POL1 - GKS Piast Gliwice
+POL1 - Górnik Zabrze SSA
+POL1 - SSA Jagiellonia Bialystok
+POL1 - MKS Korona Kielce
+POL1 - Legia Warszawa SA
+POL1 - LKS Lódź
+POL1 - KGHM Zaglebie Lubin
+POL1 - Wisla Plock SA
+POL1 - Pogón Szczeczin SA
+POL1 - KKS Lech Poznan SA
+POL1 - RKS Raków Czestochowa
+POL1 - Wisla Kraków
+POL1 - WKS Slask Wroclaw SA
+POL2 - GKS Belchatów
+POL2 - MKS Chojniczanka 1930
+POL2 - Chrobry Glogów SA
+POL2 - GKS Olimpia Grudziadz SA
+POL2 - GKS 1962 Jastrzebie
+POL2 - MKS Miedź Legnica SA
+POL2 - FKS Stal Mielec
+POL2 - B-B Termalica Nieciecza
+POL2 - MKS Puszcza Niepolomice
+POL2 - OKS Odra Opole SA
+POL2 - OKS Stomil Olsztyn
+POL2 - Podbeskidzie Bielsko-Biala
+POL2 - RKS Radomiak 1910 SA
+POL2 - MKS Sandecja Nowy Sacz
+POL2 - Zaglebie Sosnowiec SA
+POL2 - Wigry Suwalki SA
+POL2 - GKS Tychy SA
+POL2 - KS Warta Poznan SA
+POR1 - Desportivo Aves
+POR1 - Belenenses SAD
+POR1 - SL Benfica
+POR1 - Boavista Porto
+POR1 - SC Braga
+POR1 - CD Santa Clara
+POR1 - FC Famalicao
+POR1 - FC Paços de Ferreira
+POR1 - Vitória Guimaraes SC
+POR1 - CS Marítimo
+POR1 - Moreirense FC
+POR1 - Portimonense SC
+POR1 - FC Porto
+POR1 - Rio Ave FC
+POR1 - Vitória Setúbal FC
+POR1 - Sporting CP
+POR1 - CD Tondela
+POR1 - Gil Vicente FC
+POR2 - Académice Coimbra
+POR2 - SL Benfica B
+POR2 - Casa Pia AC
+POR2 - GD Chaves
+POR2 - SC Covilha
+POR2 - Estoril Praia
+POR2 - SC Farense
+POR2 - CD Feirense
+POR2 - Leixoes SC
+POR2 - CD Mafra
+POR2 - CD Nacional
+POR2 - UD Oliveirense
+POR2 - FC Penafiel
+POR2 - CD Cova Piedade
+POR2 - FC Porto B
+POR2 - Varzim SC
+POR2 - UD Vilafranquense
+POR2 - Académico Viseu FC
+POR3 - FC Alverca
+POR3 - Amadia FC
+POR3 - FC Arouca
+POR3 - SC Beira-Mar
+POR3 - Caldas da Rainha SC
+POR3 - Benfica Castelo Branco
+POR3 - AD de Castro Daire
+POR3 - SC Espinho
+POR3 - AD Fafe
+POR3 - CD Fátima
+POR3 - Leca FC
+POR3 - Uniao de Leiria
+POR3 - Louletano DC
+POR3 - FC Lustitania de Lourosa
+POR3 - Merelinense FC
+POR3 - SC Olhanense
+POR3 - Clube Oriental de Lisboa
+POR3 - SC Praiense
+POR3 - Real SC de Queluz
+POR3 - AD Sanjoanense
+POR3 - AR Sao Martinho
+POR3 - Sertanense FC
+POR3 - Sport Uniao Sintrense
+POR3 - FC Vizela
+AUT1 - Admira Wacker Mödling
+AUT1 - SC Rheindorf Altach
+AUT1 - FK Austria Wien
+AUT1 - TSV Hartberg
+AUT1 - LASK Linz
+AUT1 - SV Mattersburg
+AUT1 - SKN Sankt Pölten
+AUT1 - SK Rapid Wien
+AUT1 - RB Salzburg
+AUT1 - SK Sturm Graz
+AUT1 - WSG Swarowski Tirol
+AUT1 - Wolfsberger AC
+AUT2 - SKU Amstetten
+AUT2 - Young Violets
+AUT2 - FC Blau Weiss
+AUT2 - FC Dornbirn 1913
+AUT2 - Floridsdorfer AC
+AUT2 - Grazer AK
+AUT2 - SV Horn
+AUT2 - FC Juniors OÖ
+AUT2 - Kapfenberger SV
+AUT2 - SK Austria Klagengurt
+AUT2 - SV Lafnitz
+AUT2 - FC Liefering
+AUT2 - Austria Lustenau
+AUT2 - SV Ried
+AUT2 - SK Vorwärts Steyr
+AUT2 - FC Wacker Innsbruck
+ROM1 - AFC Astra Giurgiu
+ROM1 - FC Botosani
+ROM1 - FC Dinamo Bucuresti
+ROM1 - FC Academica Clinceni
+ROM1 - CFR 1907 Cluj
+ROM1 - CS Universitate Craiova
+ROM1 - FC Hermannstadt
+ROM1 - FC Politehnica Iasi
+ROM1 - Gaz Metan Medias
+ROM1 - OSK Sepsi Sfantu Gheorge
+ROM1 - FCSB
+ROM1 - AFC Chindia Targoviste
+ROM1 - FC Viitorul Constanta
+ROM1 - FC Voluntari
+RUS1 - PFK CSKA Moskva
+RUS1 - FK Dinamo Moskva
+RUS1 - FK Krasnodar
+RUS1 - FK Lokomotiv Moskva
+RUS1 - FK Orenburg
+RUS1 - FK Rostov
+RUS1 - FK Rubin Kazaň
+RUS1 - FK Krylja Sovetov Samara
+RUS1 - PFC Soči
+RUS1 - FK Spartak Moskva
+RUS1 - FK Tambov
+RUS1 - FK Achmat Groznyj
+RUS1 - FK Arsenal Tula
+RUS1 - FK Ufa
+RUS1 - FK Ural
+RUS1 - FK Zenit Sankt-Petěrburg
+RUS2 - FK Armavir
+RUS2 - FK Čajka Pesčanokopskoje
+RUS2 - FK Čertanovo Moskva
+RUS2 - FK Fakel Voroněž
+RUS2 - FK Těkstilščik Ivanovo
+RUS2 - FK Jenisej Krasnojarsk
+RUS2 - FK Baltika Kaliningrad
+RUS2 - FK SKA-Chabarovsk
+RUS2 - FK Chimki
+RUS2 - FK Krasnodar-2
+RUS2 - FK Avangard Kursk
+RUS2 - FK Něftěchimik Nižněkamsk
+RUS2 - FK Mordovija Saransk
+RUS2 - FK Spartak-2 Moskva
+RUS2 - FK Tom Tomsk
+RUS2 - FK Torpedo Moskva
+RUS2 - AFK Luč Vladivostok
+RUS2 - FK Nižnij Novgorod
+RUS2 - FK Rotor Volgograd
+RUS2 - FK Šinnik Jaroslavl
+GRE1 - AEK Athens FC
+GRE1 - Panaitolikos GFS Agrinio
+GRE1 - Aris Thessaloniki
+GRE1 - PAE Atromitos
+GRE1 - OFI Crete
+GRE1 - PAS Lamia 1964
+GRE1 - AE Larissa
+GRE1 - Panathinaikos FC
+GRE1 - Panionios FC
+GRE1 - PAOK Thessaloniki
+GRE1 - Olympiacos Piraeus
+GRE1 - Asteras Tripolis FC
+GRE1 - PAE Volos
+GRE1 - Xanthi AO
+GRE2 - Apollon Larissa FC
+GRE2 - PAE Chania
+GRE2 - GS Doxa Dramas FC
+GRE2 - Ergotelis FC
+GRE2 - PAS Giannina FC
+GRE2 - AE Karaiskakis
+GRE2 - PAE AO Kerkyra
+GRE2 - Levadiakos APO
+GRE2 - Panachaiki FC
+GRE2 - Platanias FC
+GRE2 - Apollon Pontou FC
+GRE2 - Apollon Smirnis FC
+NIR1 - Ballymena United FC
+NIR1 - Carrick Rangers FC
+NIR1 - Cliftonville FC
+NIR1 - Coleraine FC
+NIR1 - Crusaders FC
+NIR1 - Glenavon FC
+NIR1 - Glentoran FC
+NIR1 - Institute FC
+NIR1 - Larne FC
+NIR1 - Linfield FC
+NIR1 - Dungannon Swifts FC
+NIR1 - Warrenpoint Town FC
+MKD1 - FK Makedonija G.P.
+MKD1 - FK Akademija Panděv
+MKD1 - FK Rabotnički Skopje
+MKD1 - KF Renova Džepčište
+MKD1 - KF Shkëndija
+MKD1 - FC Shkupi
+MKD1 - FK Sileks Kratovo
+MKD1 - FC Struga Trim-Lum
+MKD1 - FK Vardar Skopje
+MKD1 - FK Borec Veles
+SCO1 - Aberdeen FC
+SCO1 - Celtic FC
+SCO1 - Hamilton Academical FC
+SCO1 - Heart of Midlothian FC
+SCO1 - Hibernia FC
+SCO1 - Kilmarnock FC
+SCO1 - Livingston FC
+SCO1 - Motherwell FC
+SCO1 - Rangers FC
+SCO1 - Ross Country FC
+SCO1 - St. Johnstone FC
+SCO1 - St. Mirren FC
+SCO2 - Alloa Athletic FC
+SCO2 - Arbroath FC
+SCO2 - Ayr United FC
+SCO2 - Dundee FC
+SCO2 - Dundee United FC
+SCO2 - Dunfermline Athletic FC
+SCO2 - Greenock Morton FC
+SCO2 - Inverness Caledonian FC
+SCO2 - Patrick Thistle FC
+SCO2 - Queen of the South FC
+SCO3 - Airdrieonians FC
+SCO3 - Clyde FC
+SCO3 - Dumbarton FC
+SCO3 - East Fife FC
+SCO3 - Falkirk FC
+SCO3 - Forfar Athletic FC
+SCO3 - Montrose FC
+SCO3 - Peterhead FC
+SCO3 - Raith Rovers FC
+SCO3 - Stranraer FC
+SVK1 - FC DAC Dunajská Streda
+SVK1 - MFK Zemplín Michalovce
+SVK1 - FC Nitra
+SVK1 - FK Pohronie
+SVK1 - MFK Rožumberok
+SVK1 - FK Senica
+SVK1 - ŠKF iClinic Sereď
+SVK1 - ŠK Slovan Bratislava
+SVK1 - AS Trenčín
+SVK1 - FC Spartak Trnava
+SVK1 - ViOn Zlaté Moravce-Vráble
+SVK1 - MŠK Žilina
+SVK2 - MFK Dukla Banská Bystrica
+SVK2 - Partizán Bardejov BŠK
+SVK2 - FK Dubnica nad Váhom
+SVK2 - KFC Komárno
+SVK2 - FC Košice
+SVK2 - Tatran Liptovský Mikuláš
+SVK2 - FC Petržalka
+SVK2 - FK Železiarne Podbrezová
+SVK2 - FK Poprad
+SVK2 - MŠK Púchov
+SVK2 - MFK Rožumberok B
+SVK2 - FC ŠTK 1914 Šamorín
+SVK2 - MFK Skalica
+SVK2 - ŠK Slovan Bratislava
+SVK2 - FK SLAVOJ Trebišov
+SVK2 - MŠK Žilina B
+SVK3 - TJ KOVO Beluša
+SVK3 - FK Slovan Duslo Šaľa
+SVK3 - FK Humenné
+SVK3 - FK Inter Bratislava
+SVK3 - TJ Baník Kalinovo
+SVK3 - ŠKM Liptovský Hrádok
+SVK3 - ŠK Odeva Lipany
+SVK3 - MŠK Novohrad Lučenec
+SVK3 - OFK Dunajská Lužná
+SVK3 - FC Malacky
+SVK3 - OFK Dynamo Malženice
+SVK3 - MŠK Fornat Martin
+SVK3 - Slovan Most pri Bratislave
+SVK3 - MŠK Senec
+SVK3 - Spartak Myjava
+SVK3 - AFC Nové Mesto nad Váhom
+SVK3 - MŠK Považská Bystrica
+SVK3 - 1. FC Tatran Prešov
+SVK3 - MFK Snina
+SVK3 - TJ Liptovská Štiavnica
+SVK3 - MŠK Tesla Stropkov
+SVK3 - 1. FK Svidník
+SVK3 - MFK Vranov nad Topľou
+SVK3 - MFK Zvolen
+SLO1 - NK Aluminij
+SLO1 - NK Bravo
+SLO1 - NK Celje
+SLO1 - NK Domžale
+SLO1 - NK Olimpija Ljubljana
+SLO1 - NK Maribor
+SLO1 - NŠ Mura
+SLO1 - NK Rudar Velenje
+SLO1 - NK Tabor Sežana
+SLO1 - NK Triglav Kranj
+SER1 - FK TSC Bačka Topola
+SER1 - FK Čukarički
+SER1 - FK Crvena Zvezda Beograd
+SER1 - FK Indjija
+SER1 - FK Javor-Matis Ivanjica
+SER1 - FK Mačva Šabac
+SER1 - FK Mladost Lučani
+SER1 - FK Napredak Kruševac
+SER1 - FK Partizan Beograd
+SER1 - FK Proleter Novi Sad
+SER1 - FK Rad
+SER1 - FK Radnički Niš
+SER1 - FK Spartak Subotica
+SER1 - FK Radnik Surdulica
+SER1 - FK Vojvodina Novi Sad
+SER1 - FK Voždovac
+SER2 - OFK Bačka
+SER2 - FK Budućnost Dobanovci
+SER2 - FK Grafičar Beograd
+SER2 - FK Kabel Novi Sad
+SER2 - FK Kolubara Lazarevac
+SER2 - FK Radnički 1923
+SER2 - FK Metalac
+SER2 - FK Novi Pazar
+SER2 - FK Radnički Pirot
+SER2 - FK Sindjelić Beograd
+SER2 - FK Smeredevo 1924
+SER2 - FK Trayal Kruševac
+SER2 - FK Dinamo Vranje
+SER2 - OFK Žarkovo
+SER2 - FK Zemun
+SER2 - FK Zlatibor Čajetina
+ESP1 - Deportivo Alavés
+ESP1 - Athletic Club Bilbao
+ESP1 - Club Atlético de Madrid
+ESP1 - FC Barcelona
+ESP1 - Real Betis Balompié
+ESP1 - SD Eibar
+ESP1 - RCD Espanyol
+ESP1 - Getafe Club de Fútbol
+ESP1 - Granada CF
+ESP1 - CD Leganés
+ESP1 - Levante UD
+ESP1 - Real Madrid CF
+ESP1 - RCD Mallorca
+ESP1 - CA Osasuna
+ESP1 - Sevilla FC
+ESP1 - Real Sociedad de Fútbol
+ESP1 - Valencia CF
+ESP1 - Real Valladolid CF
+ESP1 - Real Club Celta de Vigo
+ESP1 - Villarreal CF
+ESP2 - Albacete Balompié
+ESP2 - AD Alcorcón
+ESP2 - UD Almería
+ESP2 - Cádiz CF
+ESP2 - Deportivo La Coruňa
+ESP2 - Elche CF
+ESP2 - Extremadura UD
+ESP2 - CF Fuenlabrada
+ESP2 - Sporting de Gijón
+ESP2 - Girona FC
+ESP2 - SD Huesca
+ESP2 - CD Lugo
+ESP2 - Málaga CF
+ESP2 - CD Mirandés
+ESP2 - CD Numancia
+ESP2 - Real Oviedo
+ESP2 - UD Las Palmas
+ESP2 - SD Ponferradina
+ESP2 - Rayo Vallecano de Madrid
+ESP2 - Racing Club Santander
+ESP2 - CD Tenerife
+ESP2 - Real Zaragoza
+ESP3 - SD Amorebieta
+ESP3 - FC Andorra
+ESP3 - CD Badajoz
+ESP3 - Atlético Baleares
+ESP3 - Burgos CF
+ESP3 - FC Cartagena
+ESP3 - CD Castellón
+ESP3 - UE Cornellá
+ESP3 - Coruxo FC
+ESP3 - CD Guijuelo
+ESP3 - Recreativo de Huelva
+ESP3 - UD Ibiza
+ESP3 - CF Internacional de Madrid
+ESP3 - Cultural Leonesa
+ESP3 - Club Lleida Esportiu
+ESP3 - UD Logronés
+ESP3 - CF Rayo Majadahonda
+ESP3 - Marbella FC
+ESP3 - Real Murcia CF
+ESP3 - SCR Peňa Deportiva
+ESP3 - CE Sabadell FC
+ESP3 - Gimnástic de Tarragona
+ESP3 - Salamanca CF UDS
+ESP3 - Yeclano Deportivo
+SWE1 - Djurgardens IF
+SWE1 - IF Elfsborg
+SWE1 - Falkenbergs FF
+SWE1 - IFK Göteborg
+SWE1 - BK Hacken
+SWE1 - Hammarby IF
+SWE1 - Helsingborgs
+SWE1 - Kalmar FF
+SWE1 - Malmö FF
+SWE1 - Mjällby AIF
+SWE1 - IFK Norrköping
+SWE1 - Örebro SK
+SWE1 - Östersunds FK
+SWE1 - IK Sirius
+SWE1 - AIK Stockholm
+SWE1 - Varbergs BoIS
+SUI1 - FC Basel 1893
+SUI1 - BSC Young Boys
+SUI1 - FC St. Gallen 1879
+SUI1 - FC Lugano
+SUI1 - FC Luzern
+SUI1 - Servette FC
+SUI1 - FC Sion
+SUI1 - FC Thun
+SUI1 - Neuchâtel Xamax FCS
+SUI1 - FC Zürich
+SUI2 - FC Aarau
+SUI2 - FC Chiasso
+SUI2 - Grasshopper Club Zürich
+SUI2 - SC Kriens
+SUI2 - FC Lausanne Sport
+SUI2 - FC Schaffhausen
+SUI2 - Stade Lausanne-Ouchy
+SUI2 - FC Vaduz
+SUI2 - FC Wil 1900
+SUI2 - FC Winterthur
+TUR1 - Alanyaspor
+TUR1 - MKE Ankaragücü
+TUR1 - Antalyaspor
+TUR1 - Istanbul Başakşehir
+TUR1 - Beşiktaş JK
+TUR1 - Denizlispor
+TUR1 - Fenerbahçe SK
+TUR1 - Galatasaray SK
+TUR1 - Gaziantep FK
+TUR1 - Gençlerbirligi SK
+TUR1 - Göztepe SK
+TUR1 - Kasimpasas SK
+TUR1 - Kayserispor
+TUR1 - Konyaspor
+TUR1 - Yeni Malatyaspor
+TUR1 - Çaykur Rizespor
+TUR1 - Sivasspor
+TUR1 - Trabzonspor
+TUR2 - Adanaspor AS
+TUR2 - Akhisarspor SK
+TUR2 - Altay SK
+TUR2 - Altinordu FK
+TUR2 - Balikesirspor
+TUR2 - Boluspor
+TUR2 - Bursaspor
+TUR2 - Adana Demirspor
+TUR2 - BB Erzurumspor
+TUR2 - Eskisehirspor
+TUR2 - Giresunspor
+TUR2 - Hatay SK
+TUR2 - Istanbulspor AS
+TUR2 - Fatih Karagümrük SK
+TUR2 - Keciörengücü SK
+TUR2 - Menemen SK
+TUR2 - Osmanlispor FK
+TUR2 - Ümraniyespor
+UKR1 - FK Desna Černihiv
+UKR1 - SK Dnipro-1
+UKR1 - FK Kolos Kovalivka
+UKR1 - FK Dynamo Kyjiv
+UKR1 - FK Karpaty Lviv
+UKR1 - FK Lviv
+UKR1 - FK Mariupol
+UKR1 - FK Oleksandriya
+UKR1 - FK Olimpik Doneck
+UKR1 - FK Šachtar Doneck
+UKR1 - FK Vorskla Poltava
+UKR1 - FK Zorja Luhansk
+WAL1 - Aberystwtyth Town FC
+WAL1 - Airbus UK Broughton FC
+WAL1 - Bala Town FC
+WAL1 - Barry Town Untied FC
+WAL1 - Caernarfon Town FC
+WAL1 - Carmarthen Town AFC
+WAL1 - Cefn Druids AFC
+WAL1 - Cardiff Met Uni FC
+WAL1 - Newtown AFC
+WAL1 - Penybont FC
+WAL1 - Connah's Quay Nomads FC
+WAL1 - The New Saints FC
+ARG1 - CA Aldosivi
+ARG1 - AA Argentinos Juniors
+ARG1 - Arsenal de Sarandí
+ARG1 - CA Banfield
+ARG1 - CA Boca Juniors
+ARG1 - CA Unión
+ARG1 - CA Colón
+ARG1 - CA Central Córdoba
+ARG1 - Defensa y Justicia
+ARG1 - Club Estudiantes de L.P.
+ARG1 - CD Gimnasia y ELP
+ARG1 - CD Godoy Cruz A. Tomba
+ARG1 - CA Huracán
+ARG1 - CA Independiente
+ARG1 - CA Lanús
+ARG1 - CA San Lorenzo de Almagro
+ARG1 - CA Newell's Old Boys
+ARG1 - CA Patronato
+ARG1 - Racing Club
+ARG1 - CA River PLate
+ARG1 - CA Rosario Central
+ARG1 - CA Talleres
+ARG1 - CA Tucumán
+ARG1 - CA Vélez Sarsfield
+BRA1 - Esporte Clube Bahia
+BRA1 - Botafogo Rio de Janeiro
+BRA1 - Red Bull Bragantino
+BRA1 - Ceará Sporting Club
+BRA1 - SC Corinthians
+BRA1 - Coritiba Foot Ball Club
+BRA1 - CR Flamengo
+BRA1 - FLuminensen Football Club
+BRA1 - Fortaleza Esporte Clube
+BRA1 - AC Goianiense
+BRA1 - Goiás Esporte Clube
+BRA1 - Gremio Porto Alegrense
+BRA1 - Sport Club Internacional
+BRA1 - Club Atlético Mineiro
+BRA1 - SE Palmeiras
+BRA1 - Club Athletico Paranense
+BRA1 - Sport Club do Recife
+BRA1 - Santos FC
+BRA1 - Sao Paulo FC
+BRA1 - CR Vasco de Gama
+MEX1 - Club América
+MEX1 - Atlas Guadalajara
+MEX1 - CD Cruz Azul
+MEX1 - CD Guadalajara
+MEX1 - FC Juárez
+MEX1 - Santos Laguna
+MEX1 - Club León FC
+MEX1 - CF Monterrey
+MEX1 - Monarcas Morelia
+MEX1 - Club Necaxa
+MEX1 - CF Pachuca
+MEX1 - Puebal FC
+MEX1 - Pumas UNAM
+MEX1 - Querétaro FC
+MEX1 - Atlético de San Luis
+MEX1 - Tigres UANL
+MEX1 - Club Tijuana
+MEX1 - Deportivo Toluca
+USA1 - Atlanta United FC
+USA1 - Chicago Fire FC
+USA1 - Colorado Rapids
+USA1 - Columbus Crew SC 
+USA1 - FC Dallas
+USA1 - D.C. United
+USA1 - Houston Dynamo
+USA1 - Sporting Kansas City
+USA1 - Los Angeles FC
+USA1 - Los Angeles Galaxy
+USA1 - Inter Miami CF
+USA1 - Minnesota United FC
+USA1 - Montréal Impact
+USA1 - New England Revolution
+USA1 - New York City FC
+USA1 - New York Red Bulls
+USA1 - Orlando City SC
+USA1 - Philadelphia Union
+USA1 - Portland Timbers
+USA1 - San Jose Earthquakes
+USA1 - Real Salt Lake City
+USA1 - Seattle Sounders FC
+USA1 - Toronto FC
+USA1 - Vancouver Whitecaps FC
+AUS1 - Adelaide United FC
+AUS1 - Auckland City FC
+AUS1 - Brisbane Roar FC
+AUS1 - Central Coast Mariners FC
+AUS1 - Newcastle Jets FC
+AUS1 - Melbourne City FC
+AUS1 - Perth Glory FC
+AUS1 - Sydney FC
+AUS1 - Melbourne Victory FC
+AUS1 - Wellington Phoenix FC
+AUS1 - Western United FC
+AUS1 - Western Sydney Wanderers
+CHN1 - Beijing Sinobo Guoan
+CHN1 - Shijiazhuang Ever Bright
+CHN1 - Chongqing Dangdai Lifan
+CHN1 - Dalian Professional
+CHN1 - Guangzhou Evergrande T.
+CHN1 - Guangzhou R-F
+CHN1 - Hebei China Fortune
+CHN1 - Henan Jianye
+CHN1 - Jiangsu Suning
+CHN1 - Qingdao Huanghai
+CHN1 - Shandong Luneng Taishan
+CHN1 - Shanghai SIPG
+CHN1 - Shanghai Greenland Shenhua
+CHN1 - Tianjin Tianhai
+CHN1 - Tianjin Teda
+CHN1 - Wuhan Zall
+JAP1 - Cerezo Osaka
+JAP1 - Gamba Osaka
+JAP1 - Nagoya Grampus
+JAP1 - Sanfrecce Hiroshima F.C.
+JAP1 - Hokkaido Consadole Sapporo
+JAP1 - Kashima Antlers
+JAP1 - Hitachi Kashiwa Reysol
+JAP1 - Kawasaki Frontale
+JAP1 - Vissel Kóbe
+JAP1 - Sagan Tosu Football Club
+JAP1 - Shimizu S-Pulse
+JAP1 - Shonan Bellmare
+JAP1 - FC Tokyo
+JAP1 - Oita Trinita
+JAP1 - Urawa Red Diamonds
+JAP1 - Vegalta Sendai
+JAP1 - Yokohama FC
+JAP1 - Yokohama F. Marinos
+SAF1 - AmaZulu FC
+SAF1 - Golden Arrows
+SAF1 - Baroka FC
+SAF1 - Bidvest Wits FC
+SAF1 - Bloemfontein Celtic
+SAF1 - Cape Town City FC
+SAF1 - Chippa United
+SAF1 - Highland Park FC
+SAF1 - Kaizer Chiefs FC
+SAF1 - Black Leopards FC
+SAF1 - Mamelodi Sundowns
+SAF1 - Maritzburg United
+SAF1 - Orlando Pirates
+SAF1 - Polokwane City FC
+SAF1 - Stellenbosch FC
+SAF1 - SuperSport United
