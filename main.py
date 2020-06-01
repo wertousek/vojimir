@@ -1,21 +1,20 @@
 import discord
-import botFunctions
-from botFunctions import embed, command
 from random import choice
 import os
 import datetime
+import bdbf
+from bdbf import embed, command, spamProtection
 
 token = os.environ.get('TOKEN', None)
 
 client = discord.Client()
 guild = client.get_guild(710900407639081002)
 
-botFunctions.commandPrefix = "-"
-
-spamValue = 5
-
-last10messages = {}
-
+bdbf.commandPrefix = "-"
+bdbf.embedFooter = {
+                "text": "Powered by wertousek",
+                "icon_url": "https://cdn.discordapp.com/avatars/436131686640648195/d72e4885e1d21bca46bd245bb00c4687.png"
+                }
 
 @client.event # event decorator/wrapper
 async def on_ready():
@@ -24,26 +23,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
 	print(f"{message.channel}: {message.author}: {message.author.name}: {message.content}")
-	if message.channel not in last10messages:
-		last10messages[message.channel] = []
-	if not message.author.bot and message.content[0] != botFunctions.commandPrefix:
-		last10messages[message.channel].append({"author": message.author, "time": message.created_at, "content": message.content})
-	if len(last10messages[message.channel]) > spamValue:
-		del last10messages[message.channel][0]
-	a = 0
-	print(len(last10messages[message.channel]), last10messages)
-	for msg in last10messages[message.channel]:
-		for i in msg:
-			print(msg[i])
-		if msg["author"] == message.author:
-			a += 1
-		else:
-			break
-	try:
-		if (a >= spamValue and message.created_at - last10messages[message.channel][-2]["time"] < datetime.timedelta(seconds = 60)) or last10messages[message.channel][-2]["content"] == message.content:
-			await message.channel.send(f"{message.author.mention} nespamuj!")
-	except:
-		pass
+	await spamProtection(message, f"{message.author.mention} nespamuj!", 5)
 
 	"""if "kedy" in message.content.lower() and "aktualizacia" in message.content.lower():
 		await message.channel.send("Nauč sa písať diakritiku ty bezcitné hovado")
