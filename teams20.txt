@@ -642,7 +642,7 @@ GER1 - FC Schalke 04
 GER1 - 1. FC Union Berlin
 GER1 - SV Werder Bremen
 GER1 - VfL Wolfsburg
-GER2 - DSC Arminia Biefeld
+GER2 - DSC Arminia Bielefeld
 GER2 - FC Erzgebirge Aue
 GER2 - VfL Bochum 1848
 GER2 - SV Darmstadt 98
