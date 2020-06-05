@@ -238,7 +238,7 @@ CZE3 - TJ Jiskra Ústí nad Orlicí
 CZE3 - FC Velké Meziříčí
 CZE3 - FC Slovan Velvary
 CZE3 - FK Loko Vltavín
-CZE3 - SFK Nové Město nad Moravě
+CZE3 - SFK Nové Město na Moravě
 CZE3 - MFK Vyškov
 CZE3 - SK Zápy
 CZE3 - FK Zbuzany
