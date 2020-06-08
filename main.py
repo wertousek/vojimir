@@ -74,7 +74,7 @@ async def on_message(message):
 					"inline": True
 				},
 				{
-					"name": "`-hostovani`",
+					"name": "`-hostovani` nebo `-host`",
 					"value": "**Použití**: `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16`\n Napíše, kolik peněz si říct za hostování",
 					"inline": True 
 				}
@@ -110,7 +110,7 @@ async def on_message(message):
 		else:
 			await message.channel.send(f"Hráče prodej za {int(int(attributes)*0.85)}£, {int(int(attributes)*0.8)}£ až {int(int(attributes)*0.9)}£")
 
-	if "hostovani" == commandos:
+	if commandos in ("hostovani","host"):
 		try:
 			attributes = [i for i in map(int,attributes.split(" "))]
 			await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
