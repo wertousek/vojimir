@@ -77,6 +77,11 @@ async def on_message(message):
 					"name": "`-hostovani` nebo `-host`",
 					"value": "**Použití**: `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16`\n Napíše, kolik peněz si říct za hostování",
 					"inline": True 
+				},
+				{
+					"name": "`-najslabsi`",
+					"value": "napíše nejslabší klub ve hře",
+					"inline": True 
 				}
 				]
 			)
@@ -109,6 +114,8 @@ async def on_message(message):
 			await message.channel.send("Hráče se doporučuje prodávat za 80 až 90% jeho ceny")
 		else:
 			await message.channel.send(f"Hráče prodej za {int(int(attributes)*0.85)}£, {int(int(attributes)*0.8)}£ až {int(int(attributes)*0.9)}£")
+	if "nehslabsi" == commandos:
+		await message.channel.send("Nejslabším klubem ve hře je FC Jõgeva Wolves, hrající třetí estnskou ligu")
 
 	if commandos in ("hostovani","host"):
 		try:
