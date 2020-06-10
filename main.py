@@ -115,7 +115,7 @@ async def on_message(message):
 		else:
 			await message.channel.send(f"Hráče prodej za {int(int(attributes)*0.85)}£, {int(int(attributes)*0.8)}£ až {int(int(attributes)*0.9)}£")
 	if "nejslabsi" == commandos:
-		await message.channel.send("Nejslabším klubem ve hře je FC Jõgeva Wolves, hrající třetí estnskou ligu")
+		await message.channel.send("Nejslabším klubem ve hře je FC Jõgeva Wolves, hrající třetí estonskou ligu")
 
 	if commandos in ("hostovani","host"):
 		try:
