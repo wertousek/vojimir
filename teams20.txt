@@ -1041,7 +1041,7 @@ SVK3 - MŠK Novohrad Lučenec
 SVK3 - OFK Dunajská Lužná
 SVK3 - FC Malacky
 SVK3 - OFK Dynamo Malženice
-SVK3 - MŠK Fornat Martin
+SVK3 - MŠK Fomat Martin
 SVK3 - Slovan Most pri Bratislave
 SVK3 - MŠK Senec
 SVK3 - Spartak Myjava
