@@ -80,7 +80,7 @@ async def on_message(message):
 				},
 				{
 					"name": "`-nejslabsi`",
-					"value": "napíše nejslabší klub ve hře",
+					"value": "napíše nejslabší tabulku nejslabších týmů z každá ligy",
 					"inline": True 
 				}
 				]
@@ -115,7 +115,7 @@ async def on_message(message):
 		else:
 			await message.channel.send(f"Hráče prodej za {int(int(attributes)*0.85)}£, {int(int(attributes)*0.8)}£ až {int(int(attributes)*0.9)}£")
 	if "nejslabsi" == commandos:
-		await message.channel.send("Nejslabším klubem ve hře je FC Jõgeva Wolves, hrající třetí estonskou ligu")
+		await message.channel.send("Hledáš nejslabší kluby? tak snad tohle pomůže https://media.discordapp.net/attachments/695395367092486144/721144888862703666/Nejvetsi_lemplove.PNG")
 
 	if commandos in ("hostovani","host"):
 		try:
