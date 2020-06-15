@@ -43,13 +43,13 @@ async def on_message(message):
 				b += 1
 		if b == len(i):
 			await message.channel.send(choice(["Ani boh nevie","Neboj bude","Zistíš až vyjde"]))"""
-	for i in [["čůrák"],["prdel"],["kurva"]]:
+	for i in [["čůrák"],["prdel"],["kurva"],["kunda"]]:
 		b = 0
 		for j in i:
 			if j in message.content.lower():
 				b += 1
 		if b == len(i):
-			await message.channel.send(choice(["Sklidni slovník kamaráde"]))
+			await message.channel.send(choice([f"{message.author.mention} Sklidni slovník kamaráde"]))
 	
 	commandos, attributes = command(message.content)
 
