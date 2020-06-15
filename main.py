@@ -87,7 +87,7 @@ async def on_message(message):
 				},
 				{
 					"name": "`-nejslabsi`",
-					"value": "napíše tabulku nejslabších týmů z každá ligy",
+					"value": "napíše tabulku nejslabších týmů z každé ligy",
 					"inline": True 
 				}
 				]
