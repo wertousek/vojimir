@@ -43,7 +43,7 @@ async def on_message(message):
 				b += 1
 		if b == len(i):
 			await message.channel.send(choice(["Ani boh nevie","Neboj bude","Zistíš až vyjde"]))"""
-	for i in [["čůrák"],["prdel"],["kurva"],["kunda"],["posra"]]:
+	for i in [["čůrák"],["prdel"],["kurva"],["kunda"],["posra"],["píči"],["jebat"]]:
 		b = 0
 		for j in i:
 			if j in message.content.lower():
