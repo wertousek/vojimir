@@ -23,7 +23,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
 	print(f"{message.channel}: {message.author}: {message.author.name}: {message.content}")
-	await spamProtection(message, choice([f"{message.author.mention} nespamuj!",f"{message.author.mention} Mohli bys psát trochu méně. nikoho to tu nezajímá, jak spamuješ",f"{message.author.mention}už nic nepiš! bolí mě z toho hlava!"]), 5)
+	"""await spamProtection(message, choice([f"{message.author.mention} nespamuj!",f"{message.author.mention} Mohli bys psát trochu méně. nikoho to tu nezajímá, jak spamuješ",f"{message.author.mention}už nic nepiš! bolí mě z toho hlava!"]), 5)"""
 
 	"""if "kedy" in message.content.lower() and "aktualizacia" in message.content.lower():
 		await message.channel.send("Nauč sa písať diakritiku ty bezcitné hovado")
@@ -43,7 +43,7 @@ async def on_message(message):
 				b += 1
 		if b == len(i):
 			await message.channel.send(choice(["Ani boh nevie","Neboj bude","Zistíš až vyjde"]))"""
-	for i in [["čůrák"],["prdel"],["kurv"],["kunda"],["posra"],["píči"],["jebat"],["píčo"]]:
+	for i in [["čůrák"],["prdel"],["kurv"],["kunda"],["posra"],["píči"],["jebat"],["píčo"],["kokot"]]:
 		b = 0
 		for j in i:
 			if j in message.content.lower():
