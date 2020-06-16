@@ -49,7 +49,7 @@ async def on_message(message):
 			if j in message.content.lower():
 				b += 1
 		if b == len(i):
-			await message.channel.send(choice([f"{message.author.mention} Sklidni slovník kamaráde"]))
+			await message.channel.send(choice([f"{message.author.mention} Zklidni slovník kamaráde"]))
 	
 	commandos, attributes = command(message.content)
 
