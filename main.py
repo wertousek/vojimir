@@ -17,7 +17,7 @@ bdbf.embedFooter = {
                 }
 
 with open ("sprostySlovnik.txt","r") as sprostySlovnik:
-	sprostaSlova = sprostySlovnik.read().split("\n"))
+	sprostaSlova = sprostySlovnik.read().split("\n")
 
 
 @client.event # event decorator/wrapper
