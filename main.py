@@ -16,6 +16,10 @@ bdbf.embedFooter = {
                 "icon_url": "https://cdn.discordapp.com/avatars/436131686640648195/d72e4885e1d21bca46bd245bb00c4687.png"
                 }
 
+with open ("sprostySlovnik.txt","r") as sprostySlovnik:
+	sprostaSlova = sprostySlovnik.read().split("\n"))
+
+
 @client.event # event decorator/wrapper
 async def on_ready():
 	print(f"We have logged in as {client.user}")
@@ -43,12 +47,12 @@ async def on_message(message):
 				b += 1
 		if b == len(i):
 			await message.channel.send(choice(["Ani boh nevie","Neboj bude","Zistíš až vyjde"]))"""
-	for i in [["čůrák"],["prdel"],["kurv"],["kunda"],["posra"],["píči"],["jebat"],["píčo"],["kokot"],["jebal"],["nasra"],["hovno"],["seru"],["srač"],["píče"]]:
+	for i in sprostaSlova:
 		b = 0
-		for j in i:
+		for j in i.split(" "):
 			if j in message.content.lower():
 				b += 1
-		if b == len(i):
+		if b == len(i.split(" ")):
 			await message.channel.send(choice([f"{message.author.mention} Zklidni slovník kamaráde"]))
 	
 	commandos, attributes = command(message.content)
@@ -97,22 +101,18 @@ async def on_message(message):
 	if "randomKlub" == commandos:
 		with open("teams20.txt","r") as teams:
 			team = choice(teams.read().split("\n"))
-			print(team)
 			await message.channel.send(team)
 	if "randomKlub18" == commandos:
 		with open ("teams.txt","r") as teams:
 			team = choice(teams.read().split("\n"))
-			print(team)
 			await message.channel.send(team)
 	if "randomklub" == commandos:
 		with open("teams20.txt","r") as teams:
 			team = choice(teams.read().split("\n"))
-			print(team)
 			await message.channel.send(team)
 	if "randomklub18" == commandos:
 		with open ("teams.txt","r") as teams:
 			team = choice(teams.read().split("\n"))
-			print(team)
 			await message.channel.send(team)
 	if "trh" == commandos:
 		await message.channel.send("Domácí trh se aktualizuje po těchto kolech: 3,5,8,10,13,15,18,20,23,25,28,30,33,35,38,40,43,45, s tím, že každé kolo dělitelné pěti se nejspíše aktualizuje i světový trh")
