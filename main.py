@@ -47,13 +47,13 @@ async def on_message(message):
 				b += 1
 		if b == len(i):
 			await message.channel.send(choice(["Ani boh nevie","Neboj bude","Zistíš až vyjde"]))"""
-	"""for i in sprostaSlova:
+	for i in sprostaSlova:
 		b = 0
 		for j in i.split(" "):
 			if j in message.content.lower():
 				b += 1
 		if b == len(i.split(" ")):
-			await message.channel.send(choice([f"{message.author.mention} Zklidni slovník kamaráde"]))"""
+			await message.channel.send(choice([f"{message.author.mention} Zklidni slovník kamaráde"]))
 	
 	commandos, attributes = command(message.content)
 
