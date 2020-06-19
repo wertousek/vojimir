@@ -117,7 +117,7 @@ async def on_message(message):
 			team = choice(teams.read().split("\n"))
 			await message.channel.send(team)
 	if "trh" == commandos:
-		await message.channel.send("Domácí trh se aktualizuje po těchto kolech: 3, 5, 8, 10, 13, 15, 18, 20, 23, 25, 28, 30, 33, 35, 38, 40, 43, 45\nSvětový trh po těchto kolech: 5, 10, 15, 20, 25, 30, 35, 40, 45")
+		await message.channel.send("Trh se aktualizuje po odehrání těchto kol:\nDomácí: 3, 8, 13, 18, 23, 28, 33, 38, 43\nSvětový: 5, 10, 15, 20, 25, 30, 35, 40, 45")
 	if "prodej" == commandos:
 		if attributes == None:
 			await message.channel.send("Hráče se doporučuje prodávat za 80 až 90% jeho ceny")
