@@ -55,6 +55,7 @@ async def on_message(message):
 				b += 1
 		if b == len(i.split(" ")):
 			await message.channel.send(choice([f"{message.author.mention} Zklidni slovník kamaráde"]))
+			break
 	
 	commandos, attributes = command(message.content)
 
