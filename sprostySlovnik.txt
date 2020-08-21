@@ -19,3 +19,5 @@ pici
 pica
 pico
 piča
+sráno
+ser
