@@ -21,3 +21,4 @@ pico
 piča
 sráno
 ser
+debil
