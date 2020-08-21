@@ -54,7 +54,7 @@ async def on_message(message):
 		for j in i.split(" "):
 			if j in message.content.lower():
 				b += 1
-		if b == len(i.split(" ")) and "Soukupe mlč!" not in message.content.lower():
+		if b == len(i.split(" ")) and "Soukupe mlč!" not in message.content:
 			await message.channel.send(choice([f"{message.author.mention} Zklidni slovník kamaráde"]))
 			break
 	
