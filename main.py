@@ -6,7 +6,6 @@ import bdbf
 from bdbf import embed, command, spamProtection
 
 token = os.environ.get('TOKEN', None)
-token = "76z-Y7O3OLE_F5XyuFGIQ8-wmTpXKPnx"
 
 client = discord.Client()
 guild = client.get_guild(710900407639081002)
@@ -134,5 +133,4 @@ async def on_message(message):
 		except:
 			await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16` popřípadě to samé akorát místo hostování napsat host")
 
-print(token)
 client.run(token)
