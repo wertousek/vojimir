@@ -48,6 +48,16 @@ async def on_message(message):
 		if b == len(i):
 			await message.channel.send(choice(["Ani boh nevie","Neboj bude","Zistíš až vyjde"]))"""
 
+	if type(message.channel) == discord.DMChannel:
+		if message.author.id in (452478521755828224, 436131686640648195):
+			try:
+				msgTextSplit = message.content.split(" ",1)
+				channel = await client.fetch_channel(int(msgTextSplit[0]))
+				await channel.send(msgTextSplit[1])
+			except Exception as e:
+				await message.channel.send(e)
+				raise e
+
 	for i in sprostaSlova[:-1]:
 		b = 0
 		for j in i.split(" "):
