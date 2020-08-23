@@ -49,7 +49,7 @@ async def on_message(message):
 			await message.channel.send(choice(["Ani boh nevie","Neboj bude","Zistíš až vyjde"]))"""
 
 	if type(message.channel) == discord.DMChannel:
-		if message.author.id in (452478521755828224, 436131686640648195):
+		if message.author.id == 436131686640648195:
 			try:
 				msgTextSplit = message.content.split(" ",1)
 				channel = await client.fetch_channel(int(msgTextSplit[0]))
