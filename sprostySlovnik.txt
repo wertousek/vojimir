@@ -24,3 +24,4 @@ ser
 debil
 piču
 zmrd
+píča
