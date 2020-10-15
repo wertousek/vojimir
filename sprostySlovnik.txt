@@ -25,5 +25,5 @@ debil
 piču
 zmrd
 píča
-Iraqon
-Iragon
+iraqon
+iragon
