@@ -11,7 +11,7 @@ scope = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/aut
 with open("vojimirCredentials-encrypted.nottxt", "rb") as f:
 	with open("vojimir-creds-decrypted.wsecret", "w") as f2:
 		try:
-			encryptionKey = int(os.environ.get("encrypt",0))
+			encryptionKey = int(os.environ.get("encryptionKey",0))
 			fr = f.read()
 			f2.write(botFunctions.decrypt(fr.decode("utf-8"), encryptionKey))
 		except Exception as e:
