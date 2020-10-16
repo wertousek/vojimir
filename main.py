@@ -9,7 +9,7 @@ import database
 import json
 
 token = os.environ.get('TOKEN', None)
-token = "NzMzOTg1MTk4NzgxNDk3NDA0.XxLG_A.hU9_RLPpmKum7K0zOwoytWspDL0"
+
 
 client = discord.Client()
 guild = client.get_guild(710900407639081002)
