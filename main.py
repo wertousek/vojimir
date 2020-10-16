@@ -6,8 +6,10 @@ import bdbf
 from bdbf import embed, command, spamProtection
 import datetime
 import database
+import json
 
 token = os.environ.get('TOKEN', None)
+
 
 client = discord.Client()
 guild = client.get_guild(710900407639081002)
@@ -18,8 +20,8 @@ bdbf.embedFooter = {
                 "icon_url": "https://cdn.discordapp.com/avatars/436131686640648195/d72e4885e1d21bca46bd245bb00c4687.png"
                 }
 
-with open ("sprostySlovnik.txt","r") as sprostySlovnik:
-	sprostaSlova = sprostySlovnik.read().split("\n")
+with open ("sprostySlovnik.json","r") as sprostySlovnik:
+	sprostaSlova = json.loads(sprostySlovnik.read())
 
 
 @client.event # event decorator/wrapper
@@ -34,8 +36,11 @@ async def on_message(message):
 		msgLog = [datetime.datetime.utcnow().isoformat(), str(message.author), str(message.author.id),str(message.channel.guild), str(message.channel.guild.id), str(message.channel), str(message.channel.id), message.content, str(message.id)]
 	else:
 		msgLog = [datetime.datetime.utcnow().isoformat(), str(message.author), str(message.author.id),"", "", str(message.channel), str(message.channel.id), message.content, str(message.id)]
-
-	database.messageLog.append_row(msgLog)
+	
+	try:
+		database.messageLog.append_row(msgLog)
+	except:
+		pass
 	"""await spamProtection(message, choice([f"{message.author.mention} nespamuj!",f"{message.author.mention} Mohli bys psát trochu méně. nikoho to tu nezajímá, jak spamuješ",f"{message.author.mention}už nic nepiš! bolí mě z toho hlava!"]), 5)"""
 
 	"""if "kedy" in message.content.lower() and "aktualizacia" in message.content.lower():
@@ -67,14 +72,15 @@ async def on_message(message):
 				await message.channel.send(e)
 				raise e
 
-	for i in sprostaSlova[:-1]:
-		b = 0
-		for j in i.split(" "):
-			if j in message.content.lower():
-				b += 1
-		if b == len(i.split(" ")) and "Soukupe mlč" not in message.content:
-			await message.channel.send(choice([f"{message.author.mention} Zklidni slovník kamaráde",f"Hej! {message.author.mention} Tohle slovo bys měl co nejdříve odstranit ze svého slovníku!",f"Hej! Hej! Hej! {message.author.mention} Nikdo tady na ty tvoje sprosťárny neni zvědavej!" ]))
-			break
+	#print(sprostaSlova)
+	b = False
+	for slovo in message.content.lower().split(" "):
+		for sSlovo in sprostaSlova["sprostaSlova"]:
+			if sSlovo in slovo and slovo not in sprostaSlova["neSprostaSlova"]:
+				print(slovo, sSlovo)
+				b = True		
+	if b and "Soukupe mlč" not in message.content:
+		await message.channel.send(choice([f"{message.author.mention} Zklidni slovník kamaráde",f"Hej! {message.author.mention} Tohle slovo bys měl co nejdříve odstranit ze svého slovníku!",f"Hej! Hej! Hej! {message.author.mention} Nikdo tady na ty tvoje sprosťárny neni zvědavej!" ]))
 	
 	commandos, attributes = command(message.content)
 
