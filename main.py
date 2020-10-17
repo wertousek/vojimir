@@ -23,6 +23,8 @@ bdbf.embedFooter = {
 with open ("sprostySlovnik.json","r") as sprostySlovnik:
 	sprostaSlova = json.loads(sprostySlovnik.read())
 
+class GetOutOfLoop(Exception):
+	pass
 
 @client.event # event decorator/wrapper
 async def on_ready():
@@ -76,9 +78,16 @@ async def on_message(message):
 	b = False
 	for slovo in message.content.lower().split(" "):
 		for sSlovo in sprostaSlova["sprostaSlova"]:
-			if sSlovo in slovo and slovo not in sprostaSlova["neSprostaSlova"]:
-				print(slovo, sSlovo)
-				b = True		
+			if sSlovo in slovo:
+				try:
+					for nSslovo in sprostaSlova["neSprostaSlova"]:
+						if nSslovo in slovo:
+							b = False
+							print(slovo, nSslovo, sSlovo)
+							raise GetOutOfLoop
+					b = True
+				except GetOutOfLoop:
+					pass
 	if b and "Soukupe mlč" not in message.content:
 		await message.channel.send(choice([f"{message.author.mention} Zklidni slovník kamaráde",f"Hej! {message.author.mention} Tohle slovo bys měl co nejdříve odstranit ze svého slovníku!",f"Hej! Hej! Hej! {message.author.mention} Nikdo tady na ty tvoje sprosťárny neni zvědavej!" ]))
 	
