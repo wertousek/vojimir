@@ -43,7 +43,7 @@ async def on_message(message):
 		database.messageLog.append_row(msgLog)
 	except:
 		pass
-	await spamProtection(message, choice([f"{message.author.mention} nespamuj!",f"{message.author.mention} Mohli bys psát trochu méně. nikoho to tu nezajímá, jak spamuješ",f"{message.author.mention}už nic nepiš! bolí mě z toho hlava!"]), 5)
+	"""await spamProtection(message, choice([f"{message.author.mention} nespamuj!",f"{message.author.mention} Mohli bys psát trochu méně. nikoho to tu nezajímá, jak spamuješ",f"{message.author.mention}už nic nepiš! bolí mě z toho hlava!"]), 5)"""
 
 	"""if "kedy" in message.content.lower() and "aktualizacia" in message.content.lower():
 		await message.channel.send("Nauč sa písať diakritiku ty bezcitné hovado")
