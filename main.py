@@ -34,15 +34,16 @@ async def on_ready():
 async def on_message(message):
 	print(f"{message.channel}: {message.author}: {message.author.name}: {message.content}")
 
-	if "guild" in dir(message.channel):
-		msgLog = [datetime.datetime.utcnow().isoformat(), str(message.author), str(message.author.id),str(message.channel.guild), str(message.channel.guild.id), str(message.channel), str(message.channel.id), message.content, str(message.id)]
-	else:
-		msgLog = [datetime.datetime.utcnow().isoformat(), str(message.author), str(message.author.id),"", "", str(message.channel), str(message.channel.id), message.content, str(message.id)]
-	
-	try:
-		database.messageLog.append_row(msgLog)
-	except:
-		pass
+	if msg.channel.id not in (436132782725660672)
+		if "guild" in dir(message.channel):
+			msgLog = [datetime.datetime.utcnow().isoformat(), str(message.author), str(message.author.id),str(message.channel.guild), str(message.channel.guild.id), str(message.channel), str(message.channel.id), message.content, str(message.id)]
+		else:
+			msgLog = [datetime.datetime.utcnow().isoformat(), str(message.author), str(message.author.id),"", "", str(message.channel), str(message.channel.id), message.content, str(message.id)]
+
+		try:
+			database.messageLog.append_row(msgLog)
+		except:
+			pass
 	"""await spamProtection(message, choice([f"{message.author.mention} nespamuj!",f"{message.author.mention} Mohli bys psát trochu méně. nikoho to tu nezajímá, jak spamuješ",f"{message.author.mention}už nic nepiš! bolí mě z toho hlava!"]), 5)"""
 
 	"""if "kedy" in message.content.lower() and "aktualizacia" in message.content.lower():
