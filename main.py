@@ -34,7 +34,7 @@ async def on_ready():
 async def on_message(message):
 	print(f"{message.channel}: {message.author}: {message.author.name}: {message.content}")
 
-	if msg.channel.guild.id not in (436132782725660672)
+	if message.channel.guild.id not in (436132782725660672):
 		if "guild" in dir(message.channel):
 			msgLog = [datetime.datetime.utcnow().isoformat(), str(message.author), str(message.author.id),str(message.channel.guild), str(message.channel.guild.id), str(message.channel), str(message.channel.id), message.content, str(message.id)]
 		else:
