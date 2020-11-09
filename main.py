@@ -126,14 +126,14 @@ async def trh(message):
 async def prodej(message):
 	"""**Použití**: `-prodej <cena hráče>` napíše, za kolik procent ceny hráč prodávat"""
 	if attributes == None:
-			await message.channel.send("Hráče se doporučuje prodávat za 80 až 90% jeho ceny")
-		else:
-			await message.channel.send(f"Hráče prodej za {int(int(attributes)*0.85)}£, {int(int(attributes)*0.8)}£ až {int(int(attributes)*0.9)}£")
+		await message.channel.send("Hráče se doporučuje prodávat za 80 až 90% jeho ceny")
+	else:
+		await message.channel.send(f"Hráče prodej za {int(int(attributes)*0.85)}£, {int(int(attributes)*0.8)}£ až {int(int(attributes)*0.9)}£")
 			
 @client.command("nejslabsi")
 def nejslabsi(message):
 	"""napíše tabulku nejslabších týmů z každé ligy"""
-	await message.channel.send("Hledáš nejslabší kluby? tak snad tohle pomůže https://media.discordapp.net/attachments/695395367092486144/721144888862703666/Nejvetsi_lemplove.PNG (tabulku vytvořil FluffyHero)"
+	await message.channel.send("Hledáš nejslabší kluby? tak snad tohle pomůže https://media.discordapp.net/attachments/695395367092486144/721144888862703666/Nejvetsi_lemplove.PNG (tabulku vytvořil FluffyHero)")
 							
 @client.command("hostovani")
 async def prodej(message):
