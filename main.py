@@ -11,7 +11,7 @@ import json
 token = os.environ.get('TOKEN', None)
 
 
-client = discord.Client()
+client = bdbf.Client(commandPrefix = "-", embedFooter = {"text": "Powered by wertousek","icon_url":"https://cdn.discordapp.com/avatars/436131686640648195/d72e4885e1d21bca46bd245bb00c4687.png"}
 guild = client.get_guild(710900407639081002)
 
 bdbf.commandPrefix = "-"
@@ -97,78 +97,57 @@ async def on_message(message):
 	
 	commandos, attributes = command(message.content)
 
-	if "help" == commandos:
-		e = embed("Help for Vojimír", fields=[
-				{
-					"name": "`-help`",
-					"value": "napíše tohle",
-					"inline": True
-				},
-				{
-					"name": "`-randomKlub`",
-					"value": "napíše náhodný klub z aktualizace Jaro20 do hry [CSM](https://www.csmweb.net/)",
-					"inline": True
-				},
-				{
-					"name": "`-randomKlub18`",
-					"value": "napíše náhodný klub z aktualizace Podzim18 do hry [CSM](https://www.csmweb.net/)",
-					"inline": True
-				},
-				{
-					"name": "`-trh`",
-					"value": "napíše, po kterých kolech se aktualizuje trh",
-					"inline": True
-				},
-				{
-					"name": "`-prodej`",
-					"value": "**Použití**: `-prodej <cena hráče>` napíše, za kolik procent ceny hráč prodávat",
-					"inline": True
-				},
-				{
-					"name": "`-hostovani` nebo `-host`",
-					"value": "**Použití**: `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16`\n Napíše, kolik peněz si říct za hostování",
-					"inline": True 
-				},
-				{
-					"name": "`-nejslabsi`",
-					"value": "napíše tabulku nejslabších týmů z každé ligy",
-					"inline": True 
-				}
-				]
-			)
-		await message.channel.send(embed=e)
+@client.command("randomKlub")
+def randomKlub(message):
+	"""napíše náhodný klub z aktualizace Jaro20 do hry [CSM](https://www.csmweb.net/)"""
+    with open("teams20.txt","r") as teams:
+		team = choice(teams.read().split("\n"))
+    await message.channel.send(team)
+	
+@client.command("randomKlub18")
+def randomKlub18(message):
+	"""napíše náhodný klub z aktualizace Podzim18 do hry [CSM](https://www.csmweb.net/)"""
+    with open("teams.txt","r") as teams:
+		team = choice(teams.read().split("\n"))
+    await message.channel.send(team)
+	
+@client.command("randomklub")
+def randomKlub(message):
+    with open("teams20.txt","r") as teams:
+		team = choice(teams.read().split("\n"))
+    await message.channel.send(team)
+	
+@client.command("randomklub18")
+def randomKlub18(message):
+    with open("teams.txt","r") as teams:
+		team = choice(teams.read().split("\n"))
+    await message.channel.send(team)
 
-	if "randomKlub" == commandos:
-		with open("teams20.txt","r") as teams:
-			team = choice(teams.read().split("\n"))
-			await message.channel.send(team)
-	if "randomKlub18" == commandos:
-		with open ("teams.txt","r") as teams:
-			team = choice(teams.read().split("\n"))
-			await message.channel.send(team)
-	if "randomklub" == commandos:
-		with open("teams20.txt","r") as teams:
-			team = choice(teams.read().split("\n"))
-			await message.channel.send(team)
-	if "randomklub18" == commandos:
-		with open ("teams.txt","r") as teams:
-			team = choice(teams.read().split("\n"))
-			await message.channel.send(team)
-	if "trh" == commandos:
-		await message.channel.send("Trh se aktualizuje po odehrání těchto kol:\nDomácí: 3, 8, 13, 18, 23, 28, 33, 38, 43\nSvětový: 5, 10, 15, 20, 25, 30, 35, 40, 45")
-	if "prodej" == commandos:
-		if attributes == None:
+@client.command("trh")
+def trh(message):
+	"""napíše, po kterých kolech se aktualizuje trh"""
+	await message.channel.send("Trh se aktualizuje po odehrání těchto kol:\nDomácí: 3, 8, 13, 18, 23, 28, 33, 38, 43\nSvětový: 5, 10, 15, 20, 25, 30, 35, 40, 45")
+	
+@client.command("prodej")
+def prodej(message):
+	"""**Použití**: `-prodej <cena hráče>` napíše, za kolik procent ceny hráč prodávat"""
+	if attributes == None:
 			await message.channel.send("Hráče se doporučuje prodávat za 80 až 90% jeho ceny")
 		else:
 			await message.channel.send(f"Hráče prodej za {int(int(attributes)*0.85)}£, {int(int(attributes)*0.8)}£ až {int(int(attributes)*0.9)}£")
-	if "nejslabsi" == commandos:
-		await message.channel.send("Hledáš nejslabší kluby? tak snad tohle pomůže https://media.discordapp.net/attachments/695395367092486144/721144888862703666/Nejvetsi_lemplove.PNG (tabulku vytvořil FluffyHero)")
-
-	if commandos in ("hostovani","host"):
-		try:
-			attributes = [i for i in map(int,attributes.split(" "))]
-			await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
-		except:
-			await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16` popřípadě to samé akorát místo hostování napsat host")
+			
+@client.command("nejslabsi")
+def nejslabsi(message):
+	"""napíše tabulku nejslabších týmů z každé ligy"""
+	await message.channel.send("Hledáš nejslabší kluby? tak snad tohle pomůže https://media.discordapp.net/attachments/695395367092486144/721144888862703666/Nejvetsi_lemplove.PNG (tabulku vytvořil FluffyHero)"
+							
+@client.command("hostovani","host")
+def prodej(message):
+	"""**Použití**: `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16`\n Napíše, kolik peněz si říct za hostování"""
+	try:
+		attributes = [i for i in map(int,attributes.split(" "))]
+		await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
+	except:
+		await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16` popřípadě to samé akorát místo hostování napsat host")
 
 client.run(token)
