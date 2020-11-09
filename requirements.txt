@@ -12,4 +12,4 @@ oauth2client == 4.1.3
 # D:\Python\vojimir\botFunctions.py: 2
 smaz-py3 == 1.0.1
 
-bdbf == 0.1.0
+bdbf == 1.0.0
