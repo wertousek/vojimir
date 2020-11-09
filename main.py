@@ -92,38 +92,38 @@ async def on_message(message):
 	commandos, attributes = command(message.content)
 
 @client.command("randomKlub")
-def randomKlub(message):
+async def randomKlub(message):
 	"""napíše náhodný klub z aktualizace Jaro20 do hry [CSM](https://www.csmweb.net/)"""
-    with open("teams20.txt","r") as teams:
+	with open("teams20.txt","r") as teams:
 		team = choice(teams.read().split("\n"))
-    await message.channel.send(team)
+	await message.channel.send(team)
 	
 @client.command("randomKlub18")
-def randomKlub18(message):
+async def randomKlub18(message):
 	"""napíše náhodný klub z aktualizace Podzim18 do hry [CSM](https://www.csmweb.net/)"""
-    with open("teams.txt","r") as teams:
+	with open("teams.txt","r") as teams:
 		team = choice(teams.read().split("\n"))
-    await message.channel.send(team)
+	await message.channel.send(team)
 	
 @client.command("randomklub")
-def randomKlub(message):
+async def randomKlub(message):
     with open("teams20.txt","r") as teams:
 		team = choice(teams.read().split("\n"))
     await message.channel.send(team)
 	
 @client.command("randomklub18")
-def randomKlub18(message):
+async def randomKlub18(message):
     with open("teams.txt","r") as teams:
 		team = choice(teams.read().split("\n"))
     await message.channel.send(team)
 
 @client.command("trh")
-def trh(message):
+async def trh(message):
 	"""napíše, po kterých kolech se aktualizuje trh"""
 	await message.channel.send("Trh se aktualizuje po odehrání těchto kol:\nDomácí: 3, 8, 13, 18, 23, 28, 33, 38, 43\nSvětový: 5, 10, 15, 20, 25, 30, 35, 40, 45")
 	
 @client.command("prodej")
-def prodej(message):
+async def prodej(message):
 	"""**Použití**: `-prodej <cena hráče>` napíše, za kolik procent ceny hráč prodávat"""
 	if attributes == None:
 			await message.channel.send("Hráče se doporučuje prodávat za 80 až 90% jeho ceny")
@@ -135,8 +135,8 @@ def nejslabsi(message):
 	"""napíše tabulku nejslabších týmů z každé ligy"""
 	await message.channel.send("Hledáš nejslabší kluby? tak snad tohle pomůže https://media.discordapp.net/attachments/695395367092486144/721144888862703666/Nejvetsi_lemplove.PNG (tabulku vytvořil FluffyHero)"
 							
-@client.command("hostovani","host")
-def prodej(message):
+@client.command("hostovani")
+async def prodej(message):
 	"""**Použití**: `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16`\n Napíše, kolik peněz si říct za hostování"""
 	try:
 		attributes = [i for i in map(int,attributes.split(" "))]
@@ -144,4 +144,11 @@ def prodej(message):
 	except:
 		await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16` popřípadě to samé akorát místo hostování napsat host")
 
+@client.command("hostovani")
+async def prodej(message):
+	try:
+		attributes = [i for i in map(int,attributes.split(" "))]
+		await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
+	except:
+		await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16` popřípadě to samé akorát místo hostování napsat host")
 client.run(token)
