@@ -107,15 +107,15 @@ async def randomKlub18(message):
 	
 @client.command("randomklub")
 async def randomKlub(message):
-    with open("teams20.txt","r") as teams:
+	with open("teams20.txt","r") as teams:
 		team = choice(teams.read().split("\n"))
-    await message.channel.send(team)
+	await message.channel.send(team)
 	
 @client.command("randomklub18")
 async def randomKlub18(message):
-    with open("teams.txt","r") as teams:
+	with open("teams.txt","r") as teams:
 		team = choice(teams.read().split("\n"))
-    await message.channel.send(team)
+	await message.channel.send(team)
 
 @client.command("trh")
 async def trh(message):
