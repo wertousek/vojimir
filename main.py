@@ -120,11 +120,12 @@ async def trh(message):
 	await message.channel.send("Trh se aktualizuje po odehrání těchto kol:\nDomácí: 3, 8, 13, 18, 23, 28, 33, 38, 43\nSvětový: 5, 10, 15, 20, 25, 30, 35, 40, 45")
 	
 @client.command("prodej")
-async def prodej(message):
+async def prodej(message, *attributes):
 	"""**Použití**: `-prodej <cena hráče>` napíše, za kolik procent ceny hráč prodávat"""
-	if attributes == None:
+	if len(attributes) == 0:
 		await message.channel.send("Hráče se doporučuje prodávat za 80 až 90% jeho ceny")
 	else:
+		attributes = attributes[0]
 		await message.channel.send(f"Hráče prodej za {int(int(attributes)*0.85)}£, {int(int(attributes)*0.8)}£ až {int(int(attributes)*0.9)}£")
 			
 @client.command("nejslabsi")
@@ -133,17 +134,19 @@ async def nejslabsi(message):
 	await message.channel.send("Hledáš nejslabší kluby? tak snad tohle pomůže https://media.discordapp.net/attachments/695395367092486144/721144888862703666/Nejvetsi_lemplove.PNG (tabulku vytvořil FluffyHero)")
 							
 @client.command("hostovani")
-async def hostovani(message):
+async def hostovani(message, *attributes):
 	"""**Použití**: `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16`\n Napíše, kolik peněz si říct za hostování"""
 	try:
+		attributes = attributes[0]
 		attributes = [i for i in map(int,attributes.split(" "))]
 		await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
 	except:
 		await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16` popřípadě to samé akorát místo hostování napsat host")
 
 @client.command("host")
-async def host(message):
+async def host(message, *attributes):
 	try:
+		attributes = attributes[0]
 		attributes = [i for i in map(int,attributes.split(" "))]
 		await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
 	except:
