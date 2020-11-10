@@ -3,7 +3,6 @@ from random import choice
 import os
 import datetime
 import bdbf
-from bdbf import embed, command, spamProtection
 import datetime
 import database
 import json
@@ -131,7 +130,7 @@ async def prodej(message):
 		await message.channel.send(f"Hráče prodej za {int(int(attributes)*0.85)}£, {int(int(attributes)*0.8)}£ až {int(int(attributes)*0.9)}£")
 			
 @client.command("nejslabsi")
-def nejslabsi(message):
+async def nejslabsi(message):
 	"""napíše tabulku nejslabších týmů z každé ligy"""
 	await message.channel.send("Hledáš nejslabší kluby? tak snad tohle pomůže https://media.discordapp.net/attachments/695395367092486144/721144888862703666/Nejvetsi_lemplove.PNG (tabulku vytvořil FluffyHero)")
 							
