@@ -135,7 +135,7 @@ async def nejslabsi(message):
 	await message.channel.send("Hledáš nejslabší kluby? tak snad tohle pomůže https://media.discordapp.net/attachments/695395367092486144/721144888862703666/Nejvetsi_lemplove.PNG (tabulku vytvořil FluffyHero)")
 							
 @client.command("hostovani")
-async def prodej(message):
+async def hostovani(message):
 	"""**Použití**: `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16`\n Napíše, kolik peněz si říct za hostování"""
 	try:
 		attributes = [i for i in map(int,attributes.split(" "))]
@@ -143,8 +143,8 @@ async def prodej(message):
 	except:
 		await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16` popřípadě to samé akorát místo hostování napsat host")
 
-@client.command("hostovani")
-async def prodej(message):
+@client.command("host")
+async def host(message):
 	try:
 		attributes = [i for i in map(int,attributes.split(" "))]
 		await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
