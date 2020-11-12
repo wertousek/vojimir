@@ -90,7 +90,7 @@ async def on_message(message):
 		await message.channel.send(choice([f"{message.author.mention} Zklidni slovník kamaráde",f"Hej! {message.author.mention} Tohle slovo bys měl co nejdříve odstranit ze svého slovníku!",f"Hej! Hej! Hej! {message.author.mention} Nikdo tady na ty tvoje sprosťárny neni zvědavej!" ]),delete_after=20)
 
 	if message.author.id != 436131686640648195 and message.channel.guild.id == 436132782725660672 and message.content == "!rank":
-		await asyncio.sleep(20)
+		await asyncio.sleep(3)
     		await message.channel.send("Amatér")
 		
 @client.command("randomKlub")
