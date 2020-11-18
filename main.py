@@ -7,8 +7,11 @@ import datetime
 import database
 import json
 import asyncio
+import requests
 
 token = os.environ.get('TOKEN', None)
+
+
 
 
 client = bdbf.Client(commandPrefix = "-", embedFooter = {"text": "Powered by wertousek","icon_url":"https://cdn.discordapp.com/avatars/436131686640648195/d72e4885e1d21bca46bd245bb00c4687.png"})
@@ -109,12 +112,14 @@ async def randomKlub18(message):
 	
 @client.command("randomklub")
 async def randomKlub(message):
+	"""randomklub"""
 	with open("teams20.txt","r") as teams:
 		team = choice(teams.read().split("\n"))
 	await message.channel.send(team)
 	
 @client.command("randomklub18")
 async def randomKlub18(message):
+	"""randomklub18"""
 	with open("teams.txt","r") as teams:
 		team = choice(teams.read().split("\n"))
 	await message.channel.send(team)
@@ -150,10 +155,22 @@ async def hostovani(message, *attributes):
 
 @client.command("host")
 async def host(message, *attributes):
+	"""host"""
 	try:
 		attributes = attributes[0]
 		attributes = [i for i in map(int,attributes.split(" "))]
 		await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
 	except:
 		await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16` popřípadě to samé akorát místo hostování napsat host")
+
+@client.command("search")
+async def search(msg, *args):
+	"""Searches the web"""
+	print(args)
+	if args == ():
+		return
+	r = requests.get(f"https://api.duckduckgo.com/?q={args[0]}&format=json&kl=cz-cs").json()
+	print(msg.content)
+	await msg.channel.send("Ty to nevíš? No tak já ti pomůžu", embed=client.embed(r["Heading"], description=r["AbstractText"], fields=[]))
+
 client.run(token)
