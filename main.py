@@ -65,6 +65,11 @@ async def on_message(message):
 		if b == len(i):
 			await message.channel.send(choice(["Ani boh nevie","Neboj bude","Zistíš až vyjde"]))"""
 
+	for i in message.content.lower().split(" "):
+	    if i in ["LGBT","GAY"]:
+	      await message.channel.send("https://i.imgur.com/bImQLuB.png")
+	      break
+
 	if type(message.channel) == discord.DMChannel:
 		if message.author.id == 436131686640648195:
 			try:
