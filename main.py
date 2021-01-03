@@ -6,8 +6,12 @@ import bdbf
 import datetime
 import database
 import json
+import asyncio
+import requests
 
 token = os.environ.get('TOKEN', None)
+
+
 
 
 client = bdbf.Client(commandPrefix = "-", embedFooter = {"text": "Powered by wertousek","icon_url":"https://cdn.discordapp.com/avatars/436131686640648195/d72e4885e1d21bca46bd245bb00c4687.png"})
@@ -40,8 +44,6 @@ async def on_message(message):
                 pass
     except:
         pass
-    
-    
     """await spamProtection(message, choice([f"{message.author.mention} nespamuj!",f"{message.author.mention} Mohli bys psát trochu méně. nikoho to tu nezajímá, jak spamuješ",f"{message.author.mention}už nic nepiš! bolí mě z toho hlava!"]), 5)"""
 
     """if "kedy" in message.content.lower() and "aktualizacia" in message.content.lower():
@@ -62,6 +64,11 @@ async def on_message(message):
                 b += 1
         if b == len(i):
             await message.channel.send(choice(["Ani boh nevie","Neboj bude","Zistíš až vyjde"]))"""
+
+    for i in message.content.lower().split(" "):
+        if i in ["LGBT","GAY"]:
+          await message.channel.send("https://i.imgur.com/bImQLuB.png")
+          break
 
     if type(message.channel) == discord.DMChannel:
         if message.author.id == 436131686640648195:
@@ -89,7 +96,11 @@ async def on_message(message):
                     pass
     if b and "Soukupe mlč" not in message.content:
         await message.channel.send(choice([f"{message.author.mention} Zklidni slovník kamaráde",f"Hej! {message.author.mention} Tohle slovo bys měl co nejdříve odstranit ze svého slovníku!",f"Hej! Hej! Hej! {message.author.mention} Nikdo tady na ty tvoje sprosťárny neni zvědavej!" ]),delete_after=20)
-        
+
+    if message.author.id != 436131686640648195 and message.channel.guild.id == 436132782725660672 and message.content == "!rank":
+                await asyncio.sleep(1)
+                await message.channel.send("Amatér")
+                
     if str(message.channel.id) not in database.commandStates.col_values(1):
         database.commandStates.append_row([str(message.channel.id), "off"])
         
@@ -97,7 +108,7 @@ async def on_message(message):
     
     if database.commandStates.col_values(2)[channelIndexInCommandStates] == "off" and not message.author.guild_permissions.administrator:
         return {"command": False}
-
+        
 @client.command("randomKlub")
 async def randomKlub(message):
     """napíše náhodný klub z aktualizace Jaro20 do hry [CSM](https://www.csmweb.net/)"""
@@ -114,6 +125,7 @@ async def randomKlub18(message):
     
 @client.command("randomklub")
 async def randomKlub(message):
+<<<<<<< HEAD
     with open("teams20.txt","r") as teams:
         team = choice(teams.read().split("\n"))
     await message.channel.send(team)
@@ -123,6 +135,19 @@ async def randomKlub18(message):
     with open("teams.txt","r") as teams:
         team = choice(teams.read().split("\n"))
     await message.channel.send(team)
+=======
+    """randomklub"""
+    with open("teams20.txt","r") as teams:
+        team = choice(teams.read().split("\n"))
+    await message.channel.send(team)
+    
+@client.command("randomklub18")
+async def randomKlub18(message):
+    """randomklub18"""
+    with open("teams.txt","r") as teams:
+        team = choice(teams.read().split("\n"))
+    await message.channel.send(team)
+>>>>>>> 79dd802435bfc40f257452f3a65bed883b8f35cb
 
 @client.command("trh")
 async def trh(message):
@@ -155,10 +180,31 @@ async def hostovani(message, *attributes):
 
 @client.command("host")
 async def host(message, *attributes):
+<<<<<<< HEAD
     try:
         attributes = attributes[0]
         attributes = [i for i in map(int,attributes.split(" "))]
         await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
     except:
         await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16` popřípadě to samé akorát místo hostování napsat host")
+=======
+    """host"""
+    try:
+        attributes = attributes[0]
+        attributes = [i for i in map(int,attributes.split(" "))]
+        await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
+    except:
+        await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16` popřípadě to samé akorát místo hostování napsat host")
+
+@client.command("search")
+async def search(msg, *args):
+    """Searches the web"""
+    print(args)
+    if args == ():
+        return
+    r = requests.get(f"https://api.duckduckgo.com/?q={args[0]}&format=json&kl=cz-cs").json()
+    print(msg.content)
+    await msg.channel.send("Ty to nevíš? No tak já ti pomůžu", embed=client.embed(r["Heading"], description=r["AbstractText"], fields=[]))
+
+>>>>>>> 79dd802435bfc40f257452f3a65bed883b8f35cb
 client.run(token)
