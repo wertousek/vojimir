@@ -125,17 +125,6 @@ async def randomKlub18(message):
     
 @client.command("randomklub")
 async def randomKlub(message):
-<<<<<<< HEAD
-    with open("teams20.txt","r") as teams:
-        team = choice(teams.read().split("\n"))
-    await message.channel.send(team)
-    
-@client.command("randomklub18")
-async def randomKlub18(message):
-    with open("teams.txt","r") as teams:
-        team = choice(teams.read().split("\n"))
-    await message.channel.send(team)
-=======
     """randomklub"""
     with open("teams20.txt","r") as teams:
         team = choice(teams.read().split("\n"))
@@ -147,7 +136,6 @@ async def randomKlub18(message):
     with open("teams.txt","r") as teams:
         team = choice(teams.read().split("\n"))
     await message.channel.send(team)
->>>>>>> 79dd802435bfc40f257452f3a65bed883b8f35cb
 
 @client.command("trh")
 async def trh(message):
@@ -180,14 +168,6 @@ async def hostovani(message, *attributes):
 
 @client.command("host")
 async def host(message, *attributes):
-<<<<<<< HEAD
-    try:
-        attributes = attributes[0]
-        attributes = [i for i in map(int,attributes.split(" "))]
-        await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
-    except:
-        await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16` popřípadě to samé akorát místo hostování napsat host")
-=======
     """host"""
     try:
         attributes = attributes[0]
@@ -205,6 +185,24 @@ async def search(msg, *args):
     r = requests.get(f"https://api.duckduckgo.com/?q={args[0]}&format=json&kl=cz-cs").json()
     print(msg.content)
     await msg.channel.send("Ty to nevíš? No tak já ti pomůžu", embed=client.embed(r["Heading"], description=r["AbstractText"], fields=[]))
-
->>>>>>> 79dd802435bfc40f257452f3a65bed883b8f35cb
+    
+@client.command("command")
+async def commandToggeling(msg, *args):
+    """Přepínání commandů"""
+    if str(message.channel.id) not in database.commandStates.col_values(1):
+        database.commandStates.append_row([str(message.channel.id), "off"])
+        
+    channelIndexInCommandStates = database.commandStates.col_values(1).index(str(message.channel.id))
+    agrs = args[0]
+    if args == None:
+        await msg.channel.send(f"Commandy jsou aktuálně ***{database.commandStates.col_values(2)[channelIndexInCommandStates]}***")
+    elif args == "on":
+        database.commandStates.update_cell(channelIndexInCommandStates,2, "on")
+        await msg.channel.send("Commandy zapnuty")
+    elif args == "off":
+        database.commandStates.update_cell(channelIndexInCommandStates,2, "off")
+        await msg.channel.send("Commandy vypnuty")
+    else:
+        await msg.channel.send(f"Neznámý stav {args}, použij *off*, nebo *on*")
+        
 client.run(token)
