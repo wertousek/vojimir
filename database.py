@@ -35,5 +35,6 @@ sheetClient = gspread.authorize(creds)
 #print(sheetClient.open("TheBotDB").worksheets())
 
 messageLog = sheetClient.open("VojimirLog").worksheet("Message Log")
+commandStates = sheetClient.open("VojimirLog").worksheet("Command Channels")
 
-print(messageLog.append_row(["Ahoj","Jak","se","máš","?"]))
+#print(messageLog.append_row(["Ahoj","Jak","se","máš","?"]))
