@@ -189,10 +189,10 @@ async def search(msg, *args):
 @client.command("command")
 async def commandToggeling(msg, *args):
     """Přepínání commandů"""
-    if str(message.channel.id) not in database.commandStates.col_values(1):
-        database.commandStates.append_row([str(message.channel.id), "off"])
+    if str(msg.channel.id) not in database.commandStates.col_values(1):
+        database.commandStates.append_row([str(msg.channel.id), "off"])
         
-    channelIndexInCommandStates = database.commandStates.col_values(1).index(str(message.channel.id))
+    channelIndexInCommandStates = database.commandStates.col_values(1).index(str(msg.channel.id))
     agrs = args[0]
     if args == None:
         await msg.channel.send(f"Commandy jsou aktuálně ***{database.commandStates.col_values(2)[channelIndexInCommandStates]}***")
