@@ -44,6 +44,9 @@ async def on_message(message):
                 pass
     except:
         pass
+    
+    if message.channel.id in [717434872733368531,717456125259153488,773470209503526932,774214326277505044,775706385190617089,800459924164968529,765588311829381141,784788638566711316,798501918972313601,798833045867331584,798856483008806912,798856778728079401,789127499639816212,788087884933890098,775065672782577714,775768221151526974,717440779903172640,717440779903172640]:
+        return {"command":False}
     """await spamProtection(message, choice([f"{message.author.mention} nespamuj!",f"{message.author.mention} Mohli bys psát trochu méně. nikoho to tu nezajímá, jak spamuješ",f"{message.author.mention}už nic nepiš! bolí mě z toho hlava!"]), 5)"""
 
     """if "kedy" in message.content.lower() and "aktualizacia" in message.content.lower():
