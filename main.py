@@ -68,11 +68,6 @@ async def on_message(message):
         if b == len(i):
             await message.channel.send(choice(["Ani boh nevie","Neboj bude","Zistíš až vyjde"]))"""
 
-    for i in message.content.lower().split(" "):
-        if i in ["LGBT","GAY"]:
-          await message.channel.send("https://i.imgur.com/bImQLuB.png")
-          break
-
     if type(message.channel) == discord.DMChannel:
         if message.author.id == 436131686640648195:
             try:
@@ -152,7 +147,7 @@ async def prodej(message, *attributes):
         await message.channel.send("Hráče se doporučuje prodávat za 80 až 90% jeho ceny")
     else:
         attributes = attributes[0]
-        await message.channel.send(f"Hráče prodej za {int(int(attributes)*0.85)}£, {int(int(attributes)*0.8)}£ až {int(int(attributes)*0.9)}£")
+        await message.channel.send(f"Hráče prodej za {int(int(attributes)*0.85)}€, {int(int(attributes)*0.8)}€ až {int(int(attributes)*0.9)}€")
             
 @client.command("nejslabsi")
 async def nejslabsi(message):
@@ -165,7 +160,7 @@ async def hostovani(message, *attributes):
     try:
         attributes = attributes[0]
         attributes = [i for i in map(int,attributes.split(" "))]
-        await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
+        await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} €.")
     except:
         await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16` popřípadě to samé akorát místo hostování napsat host")
 
@@ -175,7 +170,7 @@ async def host(message, *attributes):
     try:
         attributes = attributes[0]
         attributes = [i for i in map(int,attributes.split(" "))]
-        await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} £.")
+        await message.channel.send(f"Hráče posílej na hostování za {int(attributes[0]/3/attributes[1]*attributes[2])} €.")
     except:
         await message.channel.send("Tento příkaz se používá způsobem `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16` popřípadě to samé akorát místo hostování napsat host")
 
