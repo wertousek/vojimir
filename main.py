@@ -153,7 +153,12 @@ async def prodej(message, *attributes):
 async def nejslabsi(message):
     """napíše tabulku nejslabších týmů z každé ligy"""
     await message.channel.send("Hledáš nejslabší kluby? tak snad tohle pomůže https://media.discordapp.net/attachments/695395367092486144/721144888862703666/Nejvetsi_lemplove.PNG (tabulku vytvořil FluffyHero)")
-                            
+   
+@client.command("kodyJaro20")
+async def nejslabsi(message):
+    """Pošle odkaz na tabulku kódů týmů pro scénáře"""
+    await message.channel.send("Děláš scénář a nevíš kód týmu? nevadí, tady máš tabulku (hlavně se nezapomeň o scénář pak podělit :slight_smile:) bit.ly/KodyJaro20")
+
 @client.command("hostovani")
 async def hostovani(message, *attributes):
     """**Použití**: `-hostovani <cena hráče> <počet kol v sezoně> <počet kol na hostování>` např `-hostovani 300000 30 16`\n Napíše, kolik peněz si říct za hostování"""
