@@ -155,9 +155,9 @@ async def nejslabsi(message):
     await message.channel.send("Hledáš nejslabší kluby? tak snad tohle pomůže https://media.discordapp.net/attachments/695395367092486144/721144888862703666/Nejvetsi_lemplove.PNG (tabulku vytvořil FluffyHero)")
    
 @client.command("kodyJaro20")
-async def nejslabsi(message):
+async def kodyJaro20(message):
     """Pošle odkaz na tabulku kódů týmů pro scénáře"""
-    await message.channel.send("Děláš scénář a nevíš kód týmu? nevadí, tady máš tabulku (hlavně se nezapomeň o scénář pak podělit :slight_smile:) bit.ly/KodyJaro20")
+    await message.channel.send("Děláš scénář a nevíš kód týmu? Nevadí, tady máš tabulku (hlavně se nezapomeň o scénář pak podělit :slight_smile:) http://bit.ly/KodyJaro20")
 
 @client.command("hostovani")
 async def hostovani(message, *attributes):
