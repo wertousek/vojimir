@@ -17,8 +17,8 @@ token = os.environ.get('TOKEN', None)
 client = bdbf.Client(commandPrefix = "-", embedFooter = {"text": "Powered by wertousek","icon_url":"https://cdn.discordapp.com/avatars/436131686640648195/d72e4885e1d21bca46bd245bb00c4687.png"})
 guild = client.get_guild(710900407639081002)
 
-with open ("sprostySlovnik.json","r") as sprostySlovnik:
-    sprostaSlova = json.loads(sprostySlovnik.read())
+#with open ("sprostySlovnik.json","r") as sprostySlovnik:
+#    sprostaSlova = json.loads(sprostySlovnik.read())
 
 class GetOutOfLoop(Exception):
     pass
@@ -79,21 +79,21 @@ async def on_message(message):
                 raise e
 
     #print(sprostaSlova)
-    b = False
-    for slovo in message.content.lower().split(" "):
-        for sSlovo in sprostaSlova["sprostaSlova"]:
-            if sSlovo in slovo:
-                try:
-                    for nSslovo in sprostaSlova["neSprostaSlova"]:
-                        if nSslovo in slovo:
-                            b = False
-                            print(slovo, nSslovo, sSlovo)
-                            raise GetOutOfLoop
-                    b = True
-                except GetOutOfLoop:
-                    pass
-    if b and "Soukupe mlč" not in message.content:
-        await message.channel.send(choice([f"{message.author.mention} Zklidni slovník kamaráde",f"Hej! {message.author.mention} Tohle slovo bys měl co nejdříve odstranit ze svého slovníku!",f"Hej! Hej! Hej! {message.author.mention} Nikdo tady na ty tvoje sprosťárny neni zvědavej!" ]),delete_after=20)
+    #b = False
+    #for slovo in message.content.lower().split(" "):
+    #    for sSlovo in sprostaSlova["sprostaSlova"]:
+    #        if sSlovo in slovo:
+    #            try:
+    #                for nSslovo in sprostaSlova["neSprostaSlova"]:
+    #                    if nSslovo in slovo:
+    #                        b = False
+    #                        print(slovo, nSslovo, sSlovo)
+    #                      raise GetOutOfLoop
+    #              b = True
+    #           except GetOutOfLoop:
+    #               pass
+    #f b and "Soukupe mlč" not in message.content:
+    #    wait message.channel.send(choice([f"{message.author.mention} Zklidni slovník kamaráde",f"Hej! {message.author.mention} Tohle slovo bys měl co nejdříve odstranit ze svého slovníku!",f"Hej! Hej! Hej! {message.author.mention} Nikdo tady na ty tvoje sprosťárny neni zvědavej!" ]),delete_after=20)
 
     if message.author.id != 436131686640648195 and message.channel.guild.id == 436132782725660672 and message.content == "!rank":
                 await asyncio.sleep(1)
