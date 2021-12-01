@@ -106,8 +106,15 @@ async def on_message(message):
     
     if database.commandStates.col_values(2)[channelIndexInCommandStates] == "off" and not message.author.guild_permissions.administrator:
         return {"command": False}
-        
+    
 @client.command("randomKlub")
+async def randomKlub(message):
+    """napíše náhodný klub z CSM22"""
+    with open("Teams22.txt","r") as teams:
+        team = choice(teams.read().split("\n"))
+    await message.channel.send(team)
+        
+@client.command("randomKlub20")
 async def randomKlub(message):
     """napíše náhodný klub z aktualizace Jaro20 do hry [CSM](https://www.csmweb.net/)"""
     with open("teams20.txt","r") as teams:
