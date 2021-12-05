@@ -127,24 +127,10 @@ async def randomKlub18(message):
     with open("teams.txt","r") as teams:
         team = choice(teams.read().split("\n"))
     await message.channel.send(team)
-    
-@client.command("randomklub")
-async def randomKlub(message):
-    """randomklub"""
-    with open("teams20.txt","r") as teams:
-        team = choice(teams.read().split("\n"))
-    await message.channel.send(team)
-    
-@client.command("randomklub18")
-async def randomKlub18(message):
-    """randomklub18"""
-    with open("teams.txt","r") as teams:
-        team = choice(teams.read().split("\n"))
-    await message.channel.send(team)
 
-@client.command("trh")
+@client.command("trh20")
 async def trh(message):
-    """napíše, po kterých kolech se aktualizuje trh"""
+    """napíše, po kterých kolech se aktualizuje trh ve hrách CSM 2020 a starší"""
     await message.channel.send("Trh se aktualizuje po odehrání těchto kol:\nDomácí: 3, 8, 13, 18, 23, 28, 33, 38, 43\nSvětový: 5, 10, 15, 20, 25, 30, 35, 40, 45")
     
 @client.command("prodej")
@@ -156,10 +142,15 @@ async def prodej(message, *attributes):
         attributes = attributes[0]
         await message.channel.send(f"Hráče prodej za {int(int(attributes)*0.85)}€, {int(int(attributes)*0.8)}€ až {int(int(attributes)*0.9)}€")
             
+@client.command("nejslabsi20")
+async def nejslabsi(message):
+    """napíše tabulku nejslabších týmů z každé ligy z aktualizace Jaro20"""
+    await message.channel.send("Hledáš nejslabší kluby? tak snad tohle pomůže https://media.discordapp.net/attachments/695395367092486144/721144888862703666/Nejvetsi_lemplove.PNG (tabulku vytvořil FluffyHero)")
+    
 @client.command("nejslabsi")
 async def nejslabsi(message):
-    """napíše tabulku nejslabších týmů z každé ligy"""
-    await message.channel.send("Hledáš nejslabší kluby? tak snad tohle pomůže https://media.discordapp.net/attachments/695395367092486144/721144888862703666/Nejvetsi_lemplove.PNG (tabulku vytvořil FluffyHero)")
+    """napíše tabulku nejslabších týmů z každé ligy z aktualizace Podzim21"""
+    await message.channel.send("Hledáš nejslabší kluby? tak snad tohle pomůže https://media.discordapp.net/attachments/706100200619638835/916841547121705000/nejvetsi_lemplove_22.png (tabulku vytvořil FluffyHero)")
    
 @client.command("kodyJaro20")
 async def kodyJaro20(message):
